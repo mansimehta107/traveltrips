@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact — Travel Trips</title>
+  <meta name="description" content="Get in touch with the Travel Trips team in Dublin or Budapest. 24/7 contact for partner schools, universities and Erasmus coordinators." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="index.html" class="logo"><span class="logo__dot">T</span> Travel Trips</a>
+      <nav>
+        <ul class="nav__links">
+          <li class="has-dropdown">
+            <a href="index.html#services">Services ▾</a>
+            <ul class="dropdown">
+              <li><a href="services/erasmus-programme.html">Erasmus Programme</a></li>
+              <li><a href="services/internships.html">Internships</a></li>
+              <li><a href="services/accommodations.html">Accommodations</a></li>
+              <li><a href="services/airport-transfers.html">Airport Transfers</a></li>
+              <li><a href="services/english-classes.html">English Classes</a></li>
+              <li><a href="services/sightseeing-tours.html">Sightseeing Tours</a></li>
+              <li><a href="services/school-visits.html">School Visits</a></li>
+              <li><a href="services/training-programs.html">Training Programs</a></li>
+              <li><a href="services/coworking-space.html">Co-working Space</a></li>
+            </ul>
+          </li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="contact.html" class="btn btn--primary nav__cta nav__cta--desktop">Get in touch <span class="arrow">→</span></a>
+      <button class="nav__burger" aria-label="Menu"><span></span></button>
+      <aside class="nav__drawer">
+        <div class="nav__drawer-list">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+          <div class="group-label">Services</div>
+          <a href="services/erasmus-programme.html">Erasmus Programme</a>
+          <a href="services/internships.html">Internships</a>
+          <a href="services/accommodations.html">Accommodations</a>
+          <a href="services/airport-transfers.html">Airport Transfers</a>
+          <a href="services/english-classes.html">English Classes</a>
+          <a href="services/sightseeing-tours.html">Sightseeing Tours</a>
+          <a href="services/school-visits.html">School Visits</a>
+          <a href="services/training-programs.html">Training Programs</a>
+          <a href="services/coworking-space.html">Co-working Space</a>
+        </div>
+        <a href="contact.html" class="btn btn--primary">Get in touch <span class="arrow">→</span></a>
+      </aside>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="page-hero__bg-glow"></div>
+    <div class="container">
+      <div class="breadcrumb reveal"><a href="index.html">Home</a> <span class="breadcrumb__sep">/</span> <span>Contact</span></div>
+      <span class="eyebrow reveal">Get in touch</span>
+      <h1 class="reveal" style="margin-top: 20px;">Let's plan your <span class="h-accent">next Erasmus.</span></h1>
+      <p class="lead reveal">Tell us about your group, your preferred city and your dates — we'll come back within one working day with a tailored programme.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <div class="contact-info__block">
+            <h4>Dublin office</h4>
+            <p>Dublin, Ireland</p>
+            <span>+353 XX XXX XXXX</span>
+            <span>dublin@traveltrips.example</span>
+          </div>
+          <div class="contact-info__block">
+            <h4>Budapest office</h4>
+            <p>Budapest, Hungary</p>
+            <span>+36 XX XXX XXXX</span>
+            <span>budapest@traveltrips.example</span>
+          </div>
+          <div class="contact-info__block">
+            <h4>24/7 student line</h4>
+            <p>For students currently on programme</p>
+            <span>+353 XX XXX XXXX (Dublin)</span>
+            <span>+36 XX XXX XXXX (Budapest)</span>
+          </div>
+        </div>
+
+        <form class="form reveal" onsubmit="event.preventDefault(); alert('Thanks — form wiring is a follow-up step.');">
+          <div class="form__row">
+            <div class="field">
+              <label for="name">Your name</label>
+              <input id="name" name="name" type="text" placeholder="Jane Doe" required />
+            </div>
+            <div class="field">
+              <label for="org">School / organisation</label>
+              <input id="org" name="org" type="text" placeholder="Lycée Saint-Marc" />
+            </div>
+          </div>
+          <div class="form__row">
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="you@school.edu" required />
+            </div>
+            <div class="field">
+              <label for="city">City of interest</label>
+              <select id="city" name="city">
+                <option>Dublin</option>
+                <option>Budapest</option>
+                <option>Either</option>
+              </select>
+            </div>
+          </div>
+          <div class="form__row">
+            <div class="field">
+              <label for="group-size">Group size</label>
+              <input id="group-size" name="group-size" type="text" placeholder="e.g. 12 students + 2 teachers" />
+            </div>
+            <div class="field">
+              <label for="dates">Approximate dates</label>
+              <input id="dates" name="dates" type="text" placeholder="e.g. April – May 2026" />
+            </div>
+          </div>
+          <div class="field">
+            <label for="message">Tell us about your programme</label>
+            <textarea id="message" name="message" placeholder="Internships, English classes, tour preferences, anything special…"></textarea>
+          </div>
+          <button class="btn btn--primary" type="submit">Send enquiry <span class="arrow">→</span></button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a href="index.html" class="logo"><span class="logo__dot">T</span> Travel Trips</a>
+          <p>End-to-end Erasmus services in Dublin and Budapest. Internships, host-family accommodation, tours and 24/7 support.</p>
+        </div>
+        <div class="footer__col"><h4>Services</h4><ul>
+          <li><a href="services/erasmus-programme.html">Erasmus Programme</a></li>
+          <li><a href="services/internships.html">Internships</a></li>
+          <li><a href="services/accommodations.html">Accommodations</a></li>
+          <li><a href="services/airport-transfers.html">Airport Transfers</a></li>
+          <li><a href="services/english-classes.html">English Classes</a></li>
+        </ul></div>
+        <div class="footer__col"><h4>More</h4><ul>
+          <li><a href="services/sightseeing-tours.html">Sightseeing Tours</a></li>
+          <li><a href="services/school-visits.html">School Visits</a></li>
+          <li><a href="services/training-programs.html">Training Programs</a></li>
+          <li><a href="services/coworking-space.html">Co-working Space</a></li>
+        </ul></div>
+        <div class="footer__col"><h4>Company</h4><ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html">Dublin office</a></li>
+          <li><a href="contact.html">Budapest office</a></li>
+        </ul></div>
+      </div>
+      <div class="footer__bottom">
+        <span>© <span data-year>2026</span> Travel Trips. All rights reserved.</span>
+        <div class="footer__socials">
+          <a href="#" aria-label="Instagram">Ig</a>
+          <a href="#" aria-label="Facebook">Fb</a>
+          <a href="#" aria-label="LinkedIn">in</a>
+          <a href="#" aria-label="Email">@</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
