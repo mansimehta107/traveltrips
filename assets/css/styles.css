@@ -125,7 +125,20 @@ button { font-family: inherit; background: none; border: none; cursor: pointer; 
   max-width: 560px;
 }
 
-.h-accent { color: var(--text); font-style: italic; font-weight: 700; }
+.h-accent { color: inherit; font: inherit; }
+
+/* Yellow underline applied uniformly under every word of major headings */
+.hero h1,
+.page-hero h1,
+.section-head h2,
+.split__text h2,
+.cta-card h2 {
+  text-decoration-line: underline;
+  text-decoration-color: var(--accent);
+  text-decoration-thickness: 0.07em;
+  text-underline-offset: 0.16em;
+  text-decoration-skip-ink: none;
+}
 
 /* ============================================================
    Buttons
