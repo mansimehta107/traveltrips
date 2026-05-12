@@ -127,17 +127,17 @@ button { font-family: inherit; background: none; border: none; cursor: pointer; 
 
 .h-accent { color: inherit; font: inherit; }
 
-/* Yellow underline applied uniformly under every word of major headings */
-.hero h1,
-.page-hero h1,
-.section-head h2,
-.split__text h2,
-.cta-card h2 {
-  text-decoration-line: underline;
-  text-decoration-color: var(--accent);
-  text-decoration-thickness: 0.07em;
-  text-underline-offset: 0.16em;
-  text-decoration-skip-ink: none;
+/* Hand-drawn yellow brushstroke under the whole heading sentence.
+   Wrapped at runtime by main.js into a <span class="brush"> so the
+   stroke clones onto every wrapped line. */
+.brush {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 22' preserveAspectRatio='none'><path d='M 4 14 C 40 9 90 17 150 12 C 210 7 260 16 296 13' stroke='%23F4C842' stroke-width='10' stroke-linecap='round' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-size: 100% 0.42em;
+  background-position: 0 100%;
+  padding-bottom: 0.04em;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
 }
 
 /* ============================================================

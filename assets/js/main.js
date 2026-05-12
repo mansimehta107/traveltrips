@@ -166,4 +166,16 @@
   /* ---------- Year in footer ---------- */
   const yearEl = document.querySelector('[data-year]');
   if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+  /* ---------- Wrap heading text in .brush so the SVG underline
+       clones onto every wrapped line via box-decoration-break ---------- */
+  document.querySelectorAll(
+    '.hero h1, .page-hero h1, .section-head h2, .split__text h2, .cta-card h2'
+  ).forEach(function (h) {
+    if (h.querySelector('.brush')) return;
+    const span = document.createElement('span');
+    span.className = 'brush';
+    while (h.firstChild) span.appendChild(h.firstChild);
+    h.appendChild(span);
+  });
 })();
