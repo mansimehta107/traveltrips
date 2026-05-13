@@ -4,7 +4,7 @@ Static marketing site for Travel Trips, an Erasmus services business operating i
 
 Pure HTML / CSS / vanilla JS. No build step. CDN-loaded animations (Lenis + GSAP). Drop the folder onto any static host and it works.
 
-Live site: https://mansimehta107.github.io/traveltrips/
+Live site: https://traveltrips.ie/
 
 ## Local preview
 
