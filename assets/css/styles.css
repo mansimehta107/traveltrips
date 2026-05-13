@@ -1460,6 +1460,32 @@ button { font-family: inherit; background: none; border: none; cursor: pointer; 
 
 .form .btn { align-self: flex-start; }
 
+.form__status {
+  margin-top: 4px;
+  padding: 14px 18px;
+  border-radius: 12px;
+  font-size: 15px;
+  line-height: 1.5;
+  display: none;
+}
+.form__status--pending,
+.form__status--success,
+.form__status--error { display: block; }
+.form__status--pending {
+  background: var(--surface);
+  color: var(--text-muted);
+}
+.form__status--success {
+  background: rgba(34, 139, 90, 0.08);
+  color: #1f7a4e;
+  border: 1px solid rgba(34, 139, 90, 0.2);
+}
+.form__status--error {
+  background: rgba(200, 50, 50, 0.06);
+  color: #b53030;
+  border: 1px solid rgba(200, 50, 50, 0.2);
+}
+
 /* ============================================================
    Utilities
    ============================================================ */
