@@ -199,7 +199,7 @@
           });
           if (res.ok) {
             form.reset();
-            status.textContent = 'Thank you — your enquiry has been received. We\'ll be in touch.';
+            status.textContent = 'Thank you, we\'ll get back to you as soon as we can.';
             status.className = 'form__status form__status--success';
           } else {
             const data = await res.json().catch(() => ({}));
