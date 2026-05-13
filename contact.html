@@ -129,7 +129,6 @@
             <label for="message">Tell us about your programme</label>
             <textarea id="message" name="message" placeholder="Internships, English classes, tour preferences, anything special…"></textarea>
           </div>
-          <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px;opacity:0;" aria-hidden="true" />
           <input type="hidden" name="_subject" value="New enquiry from Travel Trips website" />
           <button class="btn btn--primary" type="submit">Send enquiry <span class="arrow">→</span></button>
           <div id="form-status" class="form__status" role="status" aria-live="polite"></div>
@@ -200,7 +199,7 @@
           });
           if (res.ok) {
             form.reset();
-            status.textContent = 'Thanks — your enquiry is on its way. We\'ll reply within one working day.';
+            status.textContent = 'Thanks — your enquiry is on its way. We\'ll get back to you as soon as we can.';
             status.className = 'form__status form__status--success';
           } else {
             const data = await res.json().catch(() => ({}));
