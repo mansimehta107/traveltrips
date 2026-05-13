@@ -410,6 +410,21 @@ button { font-family: inherit; background: none; border: none; cursor: pointer; 
 
   .nav.is-open .nav__drawer { transform: translateX(0); }
 
+  .nav__overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(10, 10, 10, 0.35);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s var(--ease);
+    z-index: 80;
+  }
+
+  .nav.is-open ~ .nav__overlay {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
   .nav__drawer-list {
     list-style: none;
     display: flex;

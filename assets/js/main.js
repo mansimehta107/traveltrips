@@ -43,6 +43,20 @@
   }
 
   if (burger && nav) {
+    const drawer = nav.querySelector('.nav__drawer');
+    if (drawer) drawer.setAttribute('data-lenis-prevent', '');
+
+    const overlay = document.createElement('div');
+    overlay.className = 'nav__overlay';
+    overlay.setAttribute('aria-hidden', 'true');
+    document.body.appendChild(overlay);
+
+    function closeDrawer() {
+      nav.classList.remove('is-open');
+      document.body.style.overflow = '';
+      if (lenis) lenis.start();
+    }
+
     burger.addEventListener('click', function () {
       nav.classList.toggle('is-open');
       const isOpen = nav.classList.contains('is-open');
@@ -52,13 +66,15 @@
       }
     });
 
+    overlay.addEventListener('click', closeDrawer);
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && nav.classList.contains('is-open')) closeDrawer();
+    });
+
     // Close drawer when a link is clicked
     document.querySelectorAll('.nav__drawer a').forEach(function (a) {
-      a.addEventListener('click', function () {
-        nav.classList.remove('is-open');
-        document.body.style.overflow = '';
-        if (lenis) lenis.start();
-      });
+      a.addEventListener('click', closeDrawer);
     });
   }
 
