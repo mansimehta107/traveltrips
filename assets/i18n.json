@@ -1,0 +1,1577 @@
+{
+  "common.nav.services": {
+    "en": "Services",
+    "hu": "Szolgáltatások",
+    "es": "Servicios",
+    "it": "Servizi",
+    "fr": "Services",
+    "de": "Leistungen",
+    "pt": "Serviços"
+  },
+  "common.nav.services_arrow": {
+    "en": "Services ▾",
+    "hu": "Szolgáltatások ▾",
+    "es": "Servicios ▾",
+    "it": "Servizi ▾",
+    "fr": "Services ▾",
+    "de": "Leistungen ▾",
+    "pt": "Serviços ▾"
+  },
+  "common.nav.about": {
+    "en": "About",
+    "hu": "Rólunk",
+    "es": "Quiénes somos",
+    "it": "Chi siamo",
+    "fr": "À propos",
+    "de": "Über uns",
+    "pt": "Sobre"
+  },
+  "common.nav.contact": {
+    "en": "Contact",
+    "hu": "Kapcsolat",
+    "es": "Contacto",
+    "it": "Contatti",
+    "fr": "Contact",
+    "de": "Kontakt",
+    "pt": "Contacto"
+  },
+  "common.nav.home": {
+    "en": "Home",
+    "hu": "Főoldal",
+    "es": "Inicio",
+    "it": "Home",
+    "fr": "Accueil",
+    "de": "Startseite",
+    "pt": "Início"
+  },
+  "common.nav.get_in_touch": {
+    "en": "Get in touch",
+    "hu": "Vegye fel velünk a kapcsolatot",
+    "es": "Contáctanos",
+    "it": "Contattaci",
+    "fr": "Nous contacter",
+    "de": "Kontaktieren Sie uns",
+    "pt": "Fale connosco"
+  },
+  "common.nav.menu": {
+    "en": "Menu",
+    "hu": "Menü",
+    "es": "Menú",
+    "it": "Menù",
+    "fr": "Menu",
+    "de": "Menü",
+    "pt": "Menu"
+  },
+  "common.service.erasmus": {
+    "en": "Erasmus Programme",
+    "hu": "Erasmus program",
+    "es": "Programa Erasmus",
+    "it": "Programma Erasmus",
+    "fr": "Programme Erasmus",
+    "de": "Erasmus-Programm",
+    "pt": "Programa Erasmus"
+  },
+  "common.service.internships": {
+    "en": "Internships",
+    "hu": "Szakmai gyakorlatok",
+    "es": "Prácticas",
+    "it": "Stage",
+    "fr": "Stages",
+    "de": "Praktika",
+    "pt": "Estágios"
+  },
+  "common.service.accommodations": {
+    "en": "Accommodations",
+    "hu": "Szállás",
+    "es": "Alojamiento",
+    "it": "Alloggi",
+    "fr": "Hébergement",
+    "de": "Unterkünfte",
+    "pt": "Alojamento"
+  },
+  "common.service.transfers": {
+    "en": "Airport Transfers",
+    "hu": "Reptéri transzfer",
+    "es": "Traslados al aeropuerto",
+    "it": "Trasferimenti aeroporto",
+    "fr": "Transferts aéroport",
+    "de": "Flughafentransfers",
+    "pt": "Transferes do aeroporto"
+  },
+  "common.service.english": {
+    "en": "English Classes",
+    "hu": "Angol órák",
+    "es": "Clases de inglés",
+    "it": "Corsi di inglese",
+    "fr": "Cours d'anglais",
+    "de": "Englischkurse",
+    "pt": "Aulas de inglês"
+  },
+  "common.service.tours": {
+    "en": "Sightseeing Tours",
+    "hu": "Városnéző túrák",
+    "es": "Excursiones turísticas",
+    "it": "Tour turistici",
+    "fr": "Visites touristiques",
+    "de": "Sightseeing-Touren",
+    "pt": "Visitas turísticas"
+  },
+  "common.service.schools": {
+    "en": "School Visits",
+    "hu": "Iskolalátogatások",
+    "es": "Visitas a escuelas",
+    "it": "Visite scolastiche",
+    "fr": "Visites d'écoles",
+    "de": "Schulbesuche",
+    "pt": "Visitas a escolas"
+  },
+  "common.service.training": {
+    "en": "Training Programs",
+    "hu": "Képzési programok",
+    "es": "Programas de formación",
+    "it": "Programmi di formazione",
+    "fr": "Programmes de formation",
+    "de": "Trainingsprogramme",
+    "pt": "Programas de formação"
+  },
+  "common.service.coworking": {
+    "en": "Co-working Space",
+    "hu": "Közösségi iroda",
+    "es": "Espacio de coworking",
+    "it": "Spazio coworking",
+    "fr": "Espace de coworking",
+    "de": "Coworking-Space",
+    "pt": "Espaço de cowork"
+  },
+  "common.cta.learn_more": {
+    "en": "Learn more →",
+    "hu": "Tudjon meg többet →",
+    "es": "Más información →",
+    "it": "Scopri di più →",
+    "fr": "En savoir plus →",
+    "de": "Mehr erfahren →",
+    "pt": "Saber mais →"
+  },
+  "common.cta.start_conversation": {
+    "en": "Start the conversation",
+    "hu": "Beszélgessünk",
+    "es": "Iniciar la conversación",
+    "it": "Inizia la conversazione",
+    "fr": "Commencer la conversation",
+    "de": "Gespräch beginnen",
+    "pt": "Iniciar a conversa"
+  },
+  "common.cta.send_enquiry": {
+    "en": "Send enquiry",
+    "hu": "Megkeresés küldése",
+    "es": "Enviar consulta",
+    "it": "Invia richiesta",
+    "fr": "Envoyer la demande",
+    "de": "Anfrage senden",
+    "pt": "Enviar pedido"
+  },
+  "common.cta.view_services": {
+    "en": "View our services",
+    "hu": "Szolgáltatásaink",
+    "es": "Ver nuestros servicios",
+    "it": "Scopri i nostri servizi",
+    "fr": "Voir nos services",
+    "de": "Unsere Leistungen",
+    "pt": "Ver os nossos serviços"
+  },
+  "common.cta.more_about_us": {
+    "en": "More about us",
+    "hu": "Tudjon meg többet rólunk",
+    "es": "Más sobre nosotros",
+    "it": "Scopri di più su di noi",
+    "fr": "En savoir plus sur nous",
+    "de": "Mehr über uns",
+    "pt": "Mais sobre nós"
+  },
+  "common.cta.plan_programme": {
+    "en": "Plan a programme",
+    "hu": "Program tervezése",
+    "es": "Planifica un programa",
+    "it": "Pianifica un programma",
+    "fr": "Planifier un programme",
+    "de": "Programm planen",
+    "pt": "Planear um programa"
+  },
+  "common.cta.how_it_works": {
+    "en": "How it works",
+    "hu": "Hogyan működik",
+    "es": "Cómo funciona",
+    "it": "Come funziona",
+    "fr": "Comment ça marche",
+    "de": "So funktioniert es",
+    "pt": "Como funciona"
+  },
+  "common.cta.talk_to_us": {
+    "en": "Talk to us",
+    "hu": "Lépjen velünk kapcsolatba",
+    "es": "Hablemos",
+    "it": "Parliamone",
+    "fr": "Parlons-en",
+    "de": "Sprechen Sie uns an",
+    "pt": "Fale connosco"
+  },
+  "common.bc.home": {
+    "en": "Home",
+    "hu": "Főoldal",
+    "es": "Inicio",
+    "it": "Home",
+    "fr": "Accueil",
+    "de": "Startseite",
+    "pt": "Início"
+  },
+  "common.bc.services": {
+    "en": "Services",
+    "hu": "Szolgáltatások",
+    "es": "Servicios",
+    "it": "Servizi",
+    "fr": "Services",
+    "de": "Leistungen",
+    "pt": "Serviços"
+  },
+  "common.footer.tagline": {
+    "en": "End-to-end Erasmus services in Dublin and Budapest. Internships, host-family accommodation, tours and 24/7 support.",
+    "hu": "Teljes körű Erasmus-szolgáltatások Dublinban és Budapesten. Szakmai gyakorlat, vendéglátó családoknál való szállás, túrák és 24/7 támogatás.",
+    "es": "Servicios Erasmus integrales en Dublín y Budapest. Prácticas, alojamiento en familias de acogida, excursiones y soporte 24/7.",
+    "it": "Servizi Erasmus completi a Dublino e Budapest. Stage, ospitalità in famiglia, tour e supporto 24/7.",
+    "fr": "Services Erasmus complets à Dublin et Budapest. Stages, hébergement en famille d'accueil, visites et assistance 24/7.",
+    "de": "Komplette Erasmus-Services in Dublin und Budapest. Praktika, Gastfamilien-Unterkunft, Touren und 24/7-Support.",
+    "pt": "Serviços Erasmus completos em Dublin e Budapeste. Estágios, alojamento em famílias de acolhimento, visitas e apoio 24/7."
+  },
+  "common.footer.col.services": {
+    "en": "Services",
+    "hu": "Szolgáltatások",
+    "es": "Servicios",
+    "it": "Servizi",
+    "fr": "Services",
+    "de": "Leistungen",
+    "pt": "Serviços"
+  },
+  "common.footer.col.more": {
+    "en": "More",
+    "hu": "További",
+    "es": "Más",
+    "it": "Altro",
+    "fr": "Plus",
+    "de": "Mehr",
+    "pt": "Mais"
+  },
+  "common.footer.col.company": {
+    "en": "Company",
+    "hu": "Cég",
+    "es": "Empresa",
+    "it": "Azienda",
+    "fr": "Société",
+    "de": "Unternehmen",
+    "pt": "Empresa"
+  },
+  "common.footer.dublin_office": {
+    "en": "Dublin office",
+    "hu": "Dublini iroda",
+    "es": "Oficina de Dublín",
+    "it": "Sede di Dublino",
+    "fr": "Bureau de Dublin",
+    "de": "Büro Dublin",
+    "pt": "Escritório de Dublin"
+  },
+  "common.footer.budapest_office": {
+    "en": "Budapest office",
+    "hu": "Budapesti iroda",
+    "es": "Oficina de Budapest",
+    "it": "Sede di Budapest",
+    "fr": "Bureau de Budapest",
+    "de": "Büro Budapest",
+    "pt": "Escritório de Budapeste"
+  },
+  "common.footer.copyright": {
+    "en": "© 2026 Travel Trips. All rights reserved.",
+    "hu": "© 2026 Travel Trips. Minden jog fenntartva.",
+    "es": "© 2026 Travel Trips. Todos los derechos reservados.",
+    "it": "© 2026 Travel Trips. Tutti i diritti riservati.",
+    "fr": "© 2026 Travel Trips. Tous droits réservés.",
+    "de": "© 2026 Travel Trips. Alle Rechte vorbehalten.",
+    "pt": "© 2026 Travel Trips. Todos os direitos reservados."
+  },
+  "home.title": {
+    "en": "Travel Trips — Your Erasmus journey, made unforgettable",
+    "hu": "Travel Trips — Az Erasmus utazás, amelyre örökre emlékezni fog",
+    "es": "Travel Trips — Tu experiencia Erasmus, hecha inolvidable",
+    "it": "Travel Trips — La tua esperienza Erasmus, resa indimenticabile",
+    "fr": "Travel Trips — Votre Erasmus, rendu inoubliable",
+    "de": "Travel Trips — Ihre Erasmus-Reise, unvergesslich gemacht",
+    "pt": "Travel Trips — A sua experiência Erasmus, tornada inesquecível"
+  },
+  "home.description": {
+    "en": "Travel Trips delivers end-to-end Erasmus experiences in Dublin and Budapest — internships, host-family accommodation, airport transfers, English classes, sightseeing tours and 24/7 support. 10+ years welcoming international students.",
+    "hu": "A Travel Trips teljes körű Erasmus-élményeket nyújt Dublinban és Budapesten — szakmai gyakorlatok, vendéglátó családos szállás, reptéri transzfer, angol órák, városnéző túrák és 24/7 támogatás. Több mint 10 éve fogadunk nemzetközi diákokat.",
+    "es": "Travel Trips ofrece experiencias Erasmus integrales en Dublín y Budapest — prácticas, alojamiento en familias de acogida, traslados al aeropuerto, clases de inglés, excursiones turísticas y soporte 24/7. Más de 10 años recibiendo estudiantes internacionales.",
+    "it": "Travel Trips offre esperienze Erasmus complete a Dublino e Budapest — stage, ospitalità in famiglia, trasferimenti aeroportuali, corsi di inglese, tour turistici e supporto 24/7. Oltre 10 anni di accoglienza di studenti internazionali.",
+    "fr": "Travel Trips propose des expériences Erasmus complètes à Dublin et Budapest — stages, hébergement en famille d'accueil, transferts aéroport, cours d'anglais, visites touristiques et assistance 24/7. Plus de 10 ans à accueillir des étudiants internationaux.",
+    "de": "Travel Trips bietet komplette Erasmus-Erlebnisse in Dublin und Budapest — Praktika, Gastfamilien-Unterkunft, Flughafentransfers, Englischkurse, Sightseeing-Touren und 24/7-Support. Mehr als 10 Jahre Erfahrung mit internationalen Studierenden.",
+    "pt": "A Travel Trips oferece experiências Erasmus completas em Dublin e Budapeste — estágios, alojamento em famílias de acolhimento, transferes do aeroporto, aulas de inglês, visitas turísticas e apoio 24/7. Mais de 10 anos a receber estudantes internacionais."
+  },
+  "home.hero.eyebrow": {
+    "en": "Dublin · Budapest · Since 2014",
+    "hu": "Dublin · Budapest · 2014 óta",
+    "es": "Dublín · Budapest · Desde 2014",
+    "it": "Dublino · Budapest · Dal 2014",
+    "fr": "Dublin · Budapest · Depuis 2014",
+    "de": "Dublin · Budapest · Seit 2014",
+    "pt": "Dublin · Budapeste · Desde 2014"
+  },
+  "home.hero.h1": {
+    "en": "Your Erasmus journey, <span class=\"h-accent\">made unforgettable.</span>",
+    "hu": "Az Erasmus utazás, <span class=\"h-accent\">amelyre örökre emlékezni fog.</span>",
+    "es": "Tu experiencia Erasmus, <span class=\"h-accent\">hecha inolvidable.</span>",
+    "it": "La tua esperienza Erasmus, <span class=\"h-accent\">resa indimenticabile.</span>",
+    "fr": "Votre Erasmus, <span class=\"h-accent\">rendu inoubliable.</span>",
+    "de": "Ihre Erasmus-Reise, <span class=\"h-accent\">unvergesslich gemacht.</span>",
+    "pt": "A sua experiência Erasmus, <span class=\"h-accent\">tornada inesquecível.</span>"
+  },
+  "home.hero.lead": {
+    "en": "From the moment students land in Dublin or Budapest to the goodbye at the airport, Travel Trips handles every detail — internships, host families, tours, English support — so the experience is everything they hoped for.",
+    "hu": "Attól a pillanattól kezdve, hogy a diákok Dublinban vagy Budapesten landolnak, egészen a reptéri búcsúig a Travel Trips minden részletet kézben tart — szakmai gyakorlat, vendéglátó családok, túrák, angol oktatás —, hogy az élmény minden várakozásukat felülmúlja.",
+    "es": "Desde el momento en que los estudiantes aterrizan en Dublín o Budapest hasta la despedida en el aeropuerto, Travel Trips se ocupa de cada detalle — prácticas, familias de acogida, excursiones, apoyo en inglés — para que la experiencia sea todo lo que esperaban.",
+    "it": "Dal momento in cui gli studenti atterrano a Dublino o Budapest fino al saluto all'aeroporto, Travel Trips si occupa di ogni dettaglio — stage, famiglie ospitanti, tour, supporto in inglese — perché l'esperienza sia tutto ciò che si aspettavano.",
+    "fr": "Du moment où les étudiants atterrissent à Dublin ou Budapest jusqu'aux adieux à l'aéroport, Travel Trips gère chaque détail — stages, familles d'accueil, visites, soutien en anglais — pour que l'expérience soit à la hauteur de leurs attentes.",
+    "de": "Vom Moment der Ankunft der Studierenden in Dublin oder Budapest bis zum Abschied am Flughafen kümmert sich Travel Trips um jedes Detail — Praktika, Gastfamilien, Touren, Englisch-Unterstützung — damit das Erlebnis genau das wird, was sie sich erhofft haben.",
+    "pt": "Desde o momento em que os estudantes aterram em Dublin ou Budapeste até à despedida no aeroporto, a Travel Trips trata de cada detalhe — estágios, famílias de acolhimento, visitas, apoio em inglês — para que a experiência seja tudo o que esperavam."
+  },
+  "home.hero.proof.stat": {
+    "en": "500+ students hosted",
+    "hu": "500+ vendégül látott diák",
+    "es": "Más de 500 estudiantes alojados",
+    "it": "Oltre 500 studenti ospitati",
+    "fr": "Plus de 500 étudiants accueillis",
+    "de": "Über 500 Studierende beherbergt",
+    "pt": "Mais de 500 estudantes acolhidos"
+  },
+  "home.hero.proof.text": {
+    "en": "From France, Spain, Germany and beyond",
+    "hu": "Franciaországból, Spanyolországból, Németországból és más országokból",
+    "es": "De Francia, España, Alemania y más",
+    "it": "Da Francia, Spagna, Germania e oltre",
+    "fr": "De France, d'Espagne, d'Allemagne et d'ailleurs",
+    "de": "Aus Frankreich, Spanien, Deutschland und weiteren Ländern",
+    "pt": "De França, Espanha, Alemanha e mais além"
+  },
+  "home.marquee.years": {
+    "en": "10+ Years of experience",
+    "hu": "10+ év tapasztalat",
+    "es": "Más de 10 años de experiencia",
+    "it": "Oltre 10 anni di esperienza",
+    "fr": "Plus de 10 ans d'expérience",
+    "de": "Über 10 Jahre Erfahrung",
+    "pt": "Mais de 10 anos de experiência"
+  },
+  "home.marquee.families": {
+    "en": "100+ Host families",
+    "hu": "100+ vendéglátó család",
+    "es": "Más de 100 familias de acogida",
+    "it": "Oltre 100 famiglie ospitanti",
+    "fr": "Plus de 100 familles d'accueil",
+    "de": "Über 100 Gastfamilien",
+    "pt": "Mais de 100 famílias de acolhimento"
+  },
+  "home.marquee.support": {
+    "en": "24/7 On-the-ground support",
+    "hu": "24/7 helyi támogatás",
+    "es": "Soporte sobre el terreno 24/7",
+    "it": "Supporto sul posto 24/7",
+    "fr": "Assistance sur place 24/7",
+    "de": "24/7 Vor-Ort-Support",
+    "pt": "Apoio no terreno 24/7"
+  },
+  "home.why.eyebrow": {
+    "en": "Why Travel Trips",
+    "hu": "Miért Travel Trips",
+    "es": "Por qué Travel Trips",
+    "it": "Perché Travel Trips",
+    "fr": "Pourquoi Travel Trips",
+    "de": "Warum Travel Trips",
+    "pt": "Porquê Travel Trips"
+  },
+  "home.why.h2": {
+    "en": "Built on a decade of <span class=\"h-accent\">trust</span>, hosting and Irish hospitality.",
+    "hu": "Egy évtizednyi <span class=\"h-accent\">bizalom</span>, vendéglátás és ír vendégszeretet alapjain.",
+    "es": "Una década de <span class=\"h-accent\">confianza</span>, acogida y hospitalidad irlandesa.",
+    "it": "Costruito su un decennio di <span class=\"h-accent\">fiducia</span>, ospitalità e calore irlandese.",
+    "fr": "Fondé sur une décennie de <span class=\"h-accent\">confiance</span>, d'accueil et d'hospitalité irlandaise.",
+    "de": "Aufgebaut auf einem Jahrzehnt <span class=\"h-accent\">Vertrauen</span>, Gastfreundschaft und irischer Herzlichkeit.",
+    "pt": "Construído sobre uma década de <span class=\"h-accent\">confiança</span>, acolhimento e hospitalidade irlandesa."
+  },
+  "home.why.lead": {
+    "en": "We don't just place students in a city — we welcome them into a community. Every transfer, every meal, every tour is run by people who've been doing this for years.",
+    "hu": "Nem csak elhelyezzük a diákokat egy városban — egy közösségbe fogadjuk őket. Minden transzfert, minden étkezést, minden túrát olyan emberek vezetnek, akik évek óta ezt csinálják.",
+    "es": "No solo ubicamos a los estudiantes en una ciudad — los acogemos en una comunidad. Cada traslado, cada comida, cada excursión la gestionan personas que llevan años haciéndolo.",
+    "it": "Non collochiamo semplicemente gli studenti in una città — li accogliamo in una comunità. Ogni trasferimento, ogni pasto, ogni tour è gestito da persone che lo fanno da anni.",
+    "fr": "Nous ne plaçons pas seulement les étudiants dans une ville — nous les accueillons dans une communauté. Chaque transfert, chaque repas, chaque visite est assuré par des personnes qui font cela depuis des années.",
+    "de": "Wir setzen Studierende nicht einfach in einer Stadt ab — wir nehmen sie in einer Gemeinschaft auf. Jeder Transfer, jede Mahlzeit, jede Tour wird von Menschen geleitet, die das seit Jahren tun.",
+    "pt": "Não nos limitamos a colocar os estudantes numa cidade — acolhemo-los numa comunidade. Cada transfer, cada refeição, cada visita é organizada por pessoas que o fazem há anos."
+  },
+  "home.why.card1.title": {
+    "en": "A decade of experience",
+    "hu": "Egy évtizednyi tapasztalat",
+    "es": "Una década de experiencia",
+    "it": "Un decennio di esperienza",
+    "fr": "Une décennie d'expérience",
+    "de": "Ein Jahrzehnt Erfahrung",
+    "pt": "Uma década de experiência"
+  },
+  "home.why.card1.body": {
+    "en": "Over 10 years organising Erasmus internships, accommodation and tours for international schools and universities.",
+    "hu": "Több mint 10 éve szervezünk Erasmus szakmai gyakorlatokat, szállást és túrákat nemzetközi iskoláknak és egyetemeknek.",
+    "es": "Más de 10 años organizando prácticas Erasmus, alojamiento y excursiones para escuelas y universidades internacionales.",
+    "it": "Oltre 10 anni di esperienza nell'organizzazione di stage Erasmus, alloggi e tour per scuole e università internazionali.",
+    "fr": "Plus de 10 ans à organiser stages Erasmus, hébergement et visites pour des écoles et universités internationales.",
+    "de": "Mehr als 10 Jahre Erfahrung in der Organisation von Erasmus-Praktika, Unterkünften und Touren für internationale Schulen und Universitäten.",
+    "pt": "Mais de 10 anos a organizar estágios Erasmus, alojamento e visitas para escolas e universidades internacionais."
+  },
+  "home.why.card2.title": {
+    "en": "100+ host families",
+    "hu": "100+ vendéglátó család",
+    "es": "Más de 100 familias de acogida",
+    "it": "Oltre 100 famiglie ospitanti",
+    "fr": "Plus de 100 familles d'accueil",
+    "de": "Über 100 Gastfamilien",
+    "pt": "Mais de 100 famílias de acolhimento"
+  },
+  "home.why.card2.body": {
+    "en": "A vetted network of warm Irish families who serve breakfast, lunch and dinner — and share their daily life with every student.",
+    "hu": "Gondosan kiválasztott, melegszívű ír családok hálózata, akik reggelit, ebédet és vacsorát biztosítanak — és megosztják mindennapjaikat a diákokkal.",
+    "es": "Una red verificada de cálidas familias irlandesas que sirven desayuno, almuerzo y cena — y comparten su vida diaria con cada estudiante.",
+    "it": "Una rete selezionata di calorose famiglie irlandesi che offrono colazione, pranzo e cena — e condividono la vita quotidiana con ogni studente.",
+    "fr": "Un réseau de familles irlandaises chaleureuses et vérifiées, qui servent petit-déjeuner, déjeuner et dîner — et partagent leur quotidien avec chaque étudiant.",
+    "de": "Ein geprüftes Netzwerk warmherziger irischer Familien, die Frühstück, Mittag- und Abendessen servieren — und ihren Alltag mit jedem Studierenden teilen.",
+    "pt": "Uma rede verificada de famílias irlandesas acolhedoras que servem pequeno-almoço, almoço e jantar — e partilham o seu dia a dia com cada estudante."
+  },
+  "home.why.card3.title": {
+    "en": "Tours that tell stories",
+    "hu": "Túrák, amelyek történeteket mesélnek",
+    "es": "Excursiones que cuentan historias",
+    "it": "Tour che raccontano storie",
+    "fr": "Des visites qui racontent des histoires",
+    "de": "Touren, die Geschichten erzählen",
+    "pt": "Visitas que contam histórias"
+  },
+  "home.why.card3.body": {
+    "en": "From Howth Cliff to the Cliffs of Moher, our tour partners explain the history and meaning behind every landmark.",
+    "hu": "Howth-szikláktól a Moher-sziklákig túraszervező partnereink minden látnivaló történetét és jelentését elmagyarázzák.",
+    "es": "Desde Howth Cliff hasta los Acantilados de Moher, nuestros guías explican la historia y el significado de cada lugar.",
+    "it": "Dalle scogliere di Howth alle Cliffs of Moher, i nostri partner spiegano la storia e il significato di ogni luogo.",
+    "fr": "De la falaise de Howth aux Cliffs of Moher, nos guides racontent l'histoire et le sens de chaque site.",
+    "de": "Von Howth Cliff bis zu den Cliffs of Moher erklären unsere Tourpartner die Geschichte und Bedeutung jedes Wahrzeichens.",
+    "pt": "Desde a falésia de Howth até às Cliffs of Moher, os nossos parceiros explicam a história e o significado de cada local."
+  },
+  "home.why.card4.title": {
+    "en": "24/7 on-the-ground support",
+    "hu": "24/7 helyi támogatás",
+    "es": "Soporte sobre el terreno 24/7",
+    "it": "Supporto sul posto 24/7",
+    "fr": "Assistance sur place 24/7",
+    "de": "24/7 Vor-Ort-Support",
+    "pt": "Apoio no terreno 24/7"
+  },
+  "home.why.card4.body": {
+    "en": "Late flight, lost luggage, last-minute question — we're reachable around the clock, in both cities.",
+    "hu": "Késő járat, elveszett poggyász, utolsó pillanatos kérdés — éjjel-nappal elérhetők vagyunk mindkét városban.",
+    "es": "Vuelo retrasado, equipaje perdido, pregunta de última hora — estamos disponibles las 24 horas, en ambas ciudades.",
+    "it": "Volo in ritardo, bagaglio smarrito, domanda dell'ultimo minuto — siamo raggiungibili 24 ore su 24, in entrambe le città.",
+    "fr": "Vol tardif, bagage perdu, question de dernière minute — nous sommes joignables 24h/24, dans les deux villes.",
+    "de": "Verspäteter Flug, verlorenes Gepäck, kurzfristige Frage — wir sind rund um die Uhr erreichbar, in beiden Städten.",
+    "pt": "Voo atrasado, bagagem perdida, dúvida de última hora — estamos disponíveis a toda a hora, em ambas as cidades."
+  },
+  "home.services.eyebrow": {
+    "en": "What we offer",
+    "hu": "Amit kínálunk",
+    "es": "Lo que ofrecemos",
+    "it": "Cosa offriamo",
+    "fr": "Ce que nous offrons",
+    "de": "Was wir bieten",
+    "pt": "O que oferecemos"
+  },
+  "home.services.h2": {
+    "en": "End-to-end services for <span class=\"h-accent\">every Erasmus</span> and study-abroad experience.",
+    "hu": "Teljes körű szolgáltatások <span class=\"h-accent\">minden Erasmus</span> és külföldi tanulmányi élményhez.",
+    "es": "Servicios integrales para <span class=\"h-accent\">cada Erasmus</span> y experiencia de estudios en el extranjero.",
+    "it": "Servizi completi per <span class=\"h-accent\">ogni Erasmus</span> ed esperienza di studio all'estero.",
+    "fr": "Des services complets pour <span class=\"h-accent\">chaque Erasmus</span> et expérience d'études à l'étranger.",
+    "de": "Komplette Services für <span class=\"h-accent\">jeden Erasmus</span> und jedes Auslandsstudium.",
+    "pt": "Serviços completos para <span class=\"h-accent\">cada Erasmus</span> e experiência de estudo no estrangeiro."
+  },
+  "home.services.lead": {
+    "en": "From the airport pickup to the final farewell, every part of the journey can be handled by Travel Trips.",
+    "hu": "A reptéri érkezéstől az utolsó búcsúig az utazás minden részét a Travel Trips intézheti.",
+    "es": "Desde la recogida en el aeropuerto hasta la despedida final, Travel Trips puede gestionar cada parte del viaje.",
+    "it": "Dal ritiro in aeroporto al saluto finale, ogni parte del viaggio può essere gestita da Travel Trips.",
+    "fr": "De l'accueil à l'aéroport au dernier au revoir, chaque étape du voyage peut être prise en charge par Travel Trips.",
+    "de": "Vom Flughafentransfer bis zum Abschied kann Travel Trips jeden Teil der Reise übernehmen.",
+    "pt": "Desde a recolha no aeroporto até à despedida final, a Travel Trips pode tratar de cada parte da viagem."
+  },
+  "home.services.card.erasmus.body": {
+    "en": "Our flagship end-to-end programme combining internship, accommodation, tours and English support.",
+    "hu": "Zászlóshajó programunk, amely szakmai gyakorlatot, szállást, túrákat és angol oktatást foglal magában.",
+    "es": "Nuestro programa integral más completo: prácticas, alojamiento, excursiones y apoyo en inglés.",
+    "it": "Il nostro programma di punta: stage, alloggio, tour e supporto in inglese.",
+    "fr": "Notre programme phare combinant stage, hébergement, visites et soutien en anglais.",
+    "de": "Unser Vorzeigeprogramm: Praktikum, Unterkunft, Touren und Englisch-Unterstützung in einem.",
+    "pt": "O nosso programa completo: estágio, alojamento, visitas e apoio em inglês."
+  },
+  "home.services.card.internships.body": {
+    "en": "Placements across retail, administration, business-to-business, social media and many other industries.",
+    "hu": "Elhelyezések kiskereskedelemben, adminisztrációban, B2B-ben, közösségi médiában és számos más iparágban.",
+    "es": "Prácticas en comercio, administración, B2B, redes sociales y muchos otros sectores.",
+    "it": "Stage nel commercio, amministrazione, B2B, social media e molti altri settori.",
+    "fr": "Placements dans le commerce, l'administration, le B2B, les réseaux sociaux et de nombreux autres secteurs.",
+    "de": "Praktikumsplätze in Einzelhandel, Verwaltung, B2B, Social Media und vielen weiteren Branchen.",
+    "pt": "Colocações no comércio, administração, B2B, redes sociais e muitos outros setores."
+  },
+  "home.services.card.accommodations.body": {
+    "en": "Host families, student residences, hotels, apartments and dedicated teacher accommodation.",
+    "hu": "Vendéglátó családok, diákszállók, hotelek, apartmanok és külön tanári szállás.",
+    "es": "Familias de acogida, residencias de estudiantes, hoteles, apartamentos y alojamiento dedicado a profesores.",
+    "it": "Famiglie ospitanti, residenze studentesche, hotel, appartamenti e alloggi dedicati agli insegnanti.",
+    "fr": "Familles d'accueil, résidences étudiantes, hôtels, appartements et hébergement dédié pour les enseignants.",
+    "de": "Gastfamilien, Studentenwohnheime, Hotels, Apartments und spezielle Unterkünfte für Lehrkräfte.",
+    "pt": "Famílias de acolhimento, residências de estudantes, hotéis, apartamentos e alojamento dedicado a professores."
+  },
+  "home.services.card.transfers.body": {
+    "en": "24/7 pickup and drop-off in Dublin and Budapest. Name-card meet, solo or group.",
+    "hu": "24/7 érkeztetés és búcsúztatás Dublinban és Budapesten. Névtáblás fogadás, egyéni vagy csoportos.",
+    "es": "Recogida y traslado 24/7 en Dublín y Budapest. Recepción con cartel, individual o en grupo.",
+    "it": "Ritiro e accompagnamento 24/7 a Dublino e Budapest. Accoglienza con cartello, singolo o gruppo.",
+    "fr": "Prise en charge 24/7 à Dublin et Budapest. Accueil avec pancarte, individuel ou en groupe.",
+    "de": "24/7-Abholung und -Rückfahrt in Dublin und Budapest. Empfang mit Namensschild, einzeln oder in der Gruppe.",
+    "pt": "Recolha e entrega 24/7 em Dublin e Budapeste. Receção com placa, individual ou em grupo."
+  },
+  "home.services.card.english.title": {
+    "en": "Bespoke English Classes",
+    "hu": "Egyedi angol órák",
+    "es": "Clases de inglés a medida",
+    "it": "Corsi di inglese su misura",
+    "fr": "Cours d'anglais sur mesure",
+    "de": "Maßgeschneiderte Englischkurse",
+    "pt": "Aulas de inglês personalizadas"
+  },
+  "home.services.card.english.body": {
+    "en": "Tailored to each student's level — conversational, academic or business English with certified teachers.",
+    "hu": "Az egyes diákok szintjéhez igazítva — társalgási, akadémiai vagy üzleti angol képzett tanárokkal.",
+    "es": "Adaptadas al nivel de cada estudiante — inglés conversacional, académico o de negocios con profesores certificados.",
+    "it": "Su misura per il livello di ogni studente — inglese conversazionale, accademico o business con insegnanti certificati.",
+    "fr": "Adaptés au niveau de chaque étudiant — anglais conversationnel, académique ou des affaires avec des enseignants certifiés.",
+    "de": "Auf das Niveau jedes Studierenden zugeschnitten — Konversation, akademisch oder Business-Englisch mit zertifizierten Lehrkräften.",
+    "pt": "Adaptadas ao nível de cada estudante — inglês de conversação, académico ou de negócios com professores certificados."
+  },
+  "home.services.card.tours.body": {
+    "en": "Dublin landmarks, Howth Cliff, Cliffs of Moher, beaches and historic churches — with rich local commentary.",
+    "hu": "Dublini nevezetességek, Howth-szikla, Moher-sziklák, tengerpartok és történelmi templomok — gazdag helyi kommentárral.",
+    "es": "Lugares emblemáticos de Dublín, Howth Cliff, Acantilados de Moher, playas e iglesias históricas — con rica narración local.",
+    "it": "Monumenti di Dublino, Howth Cliff, Cliffs of Moher, spiagge e chiese storiche — con ricco commento locale.",
+    "fr": "Monuments de Dublin, Howth Cliff, Cliffs of Moher, plages et églises historiques — avec un riche commentaire local.",
+    "de": "Dublins Sehenswürdigkeiten, Howth Cliff, Cliffs of Moher, Strände und historische Kirchen — mit ausführlichem Vor-Ort-Kommentar.",
+    "pt": "Monumentos de Dublin, Howth Cliff, Cliffs of Moher, praias e igrejas históricas — com comentário local rico."
+  },
+  "home.services.card.schools.body": {
+    "en": "Arranged visits to Irish schools, colleges and training institutions for cultural and academic exchange.",
+    "hu": "Szervezett látogatások ír iskolákba, főiskolákba és képzési intézményekbe kulturális és tudományos cserék céljából.",
+    "es": "Visitas organizadas a escuelas, colegios e instituciones de formación irlandesas para intercambio cultural y académico.",
+    "it": "Visite organizzate a scuole, college e istituti di formazione irlandesi per scambio culturale e accademico.",
+    "fr": "Visites organisées dans des écoles, collèges et instituts de formation irlandais pour un échange culturel et académique.",
+    "de": "Vereinbarte Besuche irischer Schulen, Colleges und Bildungseinrichtungen zum kulturellen und akademischen Austausch.",
+    "pt": "Visitas organizadas a escolas, faculdades e instituições de formação irlandesas para intercâmbio cultural e académico."
+  },
+  "home.services.card.training.body": {
+    "en": "Customised industry training tracks designed to complement internships and build career-ready skills.",
+    "hu": "Egyedi szakmai képzési pályák, amelyek kiegészítik a szakmai gyakorlatokat és karrierre felkészítő készségeket építenek.",
+    "es": "Itinerarios de formación sectorial personalizados, diseñados para complementar las prácticas y desarrollar competencias profesionales.",
+    "it": "Percorsi formativi settoriali personalizzati, pensati per integrare gli stage e sviluppare competenze pronte al lavoro.",
+    "fr": "Parcours de formation sectoriels personnalisés, conçus pour compléter les stages et développer des compétences professionnelles.",
+    "de": "Maßgeschneiderte Trainingspfade, die Praktika ergänzen und berufstaugliche Fähigkeiten aufbauen.",
+    "pt": "Percursos de formação setorial personalizados, criados para complementar os estágios e desenvolver competências profissionais."
+  },
+  "home.services.card.coworking.body": {
+    "en": "A dedicated workspace for students and teachers — desks, Wi-Fi, meeting rooms and a friendly community.",
+    "hu": "Dedikált munkaterület diákoknak és tanároknak — íróasztalok, Wi-Fi, tárgyalók és barátságos közösség.",
+    "es": "Un espacio de trabajo dedicado para estudiantes y profesores — escritorios, Wi-Fi, salas de reuniones y una comunidad acogedora.",
+    "it": "Uno spazio di lavoro dedicato a studenti e insegnanti — scrivanie, Wi-Fi, sale riunioni e una comunità accogliente.",
+    "fr": "Un espace de travail dédié aux étudiants et enseignants — bureaux, Wi-Fi, salles de réunion et une communauté chaleureuse.",
+    "de": "Ein eigener Arbeitsbereich für Studierende und Lehrkräfte — Schreibtische, WLAN, Besprechungsräume und eine herzliche Community.",
+    "pt": "Um espaço de trabalho dedicado a estudantes e professores — secretárias, Wi-Fi, salas de reunião e uma comunidade acolhedora."
+  },
+  "home.story.eyebrow": {
+    "en": "Our story",
+    "hu": "Történetünk",
+    "es": "Nuestra historia",
+    "it": "La nostra storia",
+    "fr": "Notre histoire",
+    "de": "Unsere Geschichte",
+    "pt": "A nossa história"
+  },
+  "home.story.h2": {
+    "en": "Driven by <span class=\"h-accent\">purpose</span>, powered by hospitality.",
+    "hu": "Egy <span class=\"h-accent\">küldetés</span> hajtja, a vendégszeretet adja az erejét.",
+    "es": "Movidos por un <span class=\"h-accent\">propósito</span>, impulsados por la hospitalidad.",
+    "it": "Guidati da uno <span class=\"h-accent\">scopo</span>, alimentati dall'ospitalità.",
+    "fr": "Animés par une <span class=\"h-accent\">mission</span>, portés par l'hospitalité.",
+    "de": "Geleitet von <span class=\"h-accent\">Sinn</span>, getragen von Gastfreundschaft.",
+    "pt": "Movidos por um <span class=\"h-accent\">propósito</span>, impulsionados pela hospitalidade."
+  },
+  "home.story.p1": {
+    "en": "What started as a handful of host-family stays in Dublin has grown into a full Erasmus programme spanning Dublin and Budapest. Last year alone we welcomed students from France, Spain and Germany — and every single one of them left with new friendships, a piece of Irish culture, and memories that will last a lifetime.",
+    "hu": "Ami néhány dublini vendéglátó-családos szállásként indult, mára teljes Erasmus-programmá nőtte ki magát Dublinban és Budapesten. Csak tavaly diákokat fogadtunk Franciaországból, Spanyolországból és Németországból — és mindegyikük új barátságokkal, egy darabka ír kultúrával és életre szóló emlékekkel távozott.",
+    "es": "Lo que comenzó como un puñado de estancias con familias de acogida en Dublín ha crecido hasta convertirse en un programa Erasmus completo en Dublín y Budapest. Solo el año pasado recibimos a estudiantes de Francia, España y Alemania — y todos se fueron con nuevas amistades, un pedazo de cultura irlandesa y recuerdos para toda la vida.",
+    "it": "Quello che è iniziato come qualche soggiorno in famiglia a Dublino è diventato un programma Erasmus completo tra Dublino e Budapest. Solo lo scorso anno abbiamo accolto studenti da Francia, Spagna e Germania — e ognuno è partito con nuove amicizie, un pezzo di cultura irlandese e ricordi per tutta la vita.",
+    "fr": "Ce qui a commencé par quelques séjours en famille d'accueil à Dublin est devenu un programme Erasmus complet à Dublin et Budapest. Rien que l'an dernier, nous avons accueilli des étudiants de France, d'Espagne et d'Allemagne — chacun est reparti avec de nouvelles amitiés, un bout de culture irlandaise et des souvenirs pour la vie.",
+    "de": "Was als eine Handvoll Gastfamilien-Aufenthalte in Dublin begann, ist heute ein vollständiges Erasmus-Programm in Dublin und Budapest. Allein im letzten Jahr begrüßten wir Studierende aus Frankreich, Spanien und Deutschland — und jeder einzelne nahm neue Freundschaften, ein Stück irischer Kultur und Erinnerungen fürs Leben mit nach Hause.",
+    "pt": "O que começou como um punhado de estadias em famílias de acolhimento em Dublin transformou-se num programa Erasmus completo em Dublin e Budapeste. Só no ano passado recebemos estudantes de França, Espanha e Alemanha — e cada um partiu com novas amizades, um pedaço de cultura irlandesa e memórias para toda a vida."
+  },
+  "home.story.p2": {
+    "en": "Our promise is simple: treat every student like family. That's why we partner only with host families who genuinely love what they do, tour operators who know their craft, and a 24/7 team that picks up the phone whenever it rings.",
+    "hu": "Ígéretünk egyszerű: minden diákot családtagként kezelünk. Ezért csak olyan vendéglátó családokkal, túraszervezőkkel és 24/7-es csapattal dolgozunk, akik őszintén szeretik, amit csinálnak — és bármikor felveszik a telefont.",
+    "es": "Nuestra promesa es simple: tratar a cada estudiante como de la familia. Por eso solo trabajamos con familias de acogida que aman lo que hacen, guías que conocen su oficio y un equipo 24/7 que siempre contesta el teléfono.",
+    "it": "La nostra promessa è semplice: trattare ogni studente come parte della famiglia. Per questo collaboriamo solo con famiglie ospitanti che amano davvero ciò che fanno, operatori esperti e un team 24/7 che risponde sempre al telefono.",
+    "fr": "Notre promesse est simple : traiter chaque étudiant comme un membre de la famille. C'est pourquoi nous ne travaillons qu'avec des familles d'accueil qui aiment vraiment ce qu'elles font, des opérateurs touristiques de métier et une équipe 24/7 qui décroche toujours.",
+    "de": "Unser Versprechen ist einfach: jeden Studierenden wie Familie behandeln. Deshalb arbeiten wir nur mit Gastfamilien zusammen, die ihre Aufgabe lieben, mit erfahrenen Tourpartnern und einem 24/7-Team, das immer ans Telefon geht.",
+    "pt": "A nossa promessa é simples: tratar cada estudante como família. Por isso, só trabalhamos com famílias de acolhimento que adoram o que fazem, parceiros turísticos experientes e uma equipa 24/7 que atende sempre o telefone."
+  },
+  "home.stats.years": {
+    "en": "Years of experience",
+    "hu": "Év tapasztalat",
+    "es": "Años de experiencia",
+    "it": "Anni di esperienza",
+    "fr": "Ans d'expérience",
+    "de": "Jahre Erfahrung",
+    "pt": "Anos de experiência"
+  },
+  "home.stats.families": {
+    "en": "Host families",
+    "hu": "Vendéglátó család",
+    "es": "Familias de acogida",
+    "it": "Famiglie ospitanti",
+    "fr": "Familles d'accueil",
+    "de": "Gastfamilien",
+    "pt": "Famílias de acolhimento"
+  },
+  "home.stats.availability": {
+    "en": "Availability",
+    "hu": "Elérhetőség",
+    "es": "Disponibilidad",
+    "it": "Disponibilità",
+    "fr": "Disponibilité",
+    "de": "Erreichbarkeit",
+    "pt": "Disponibilidade"
+  },
+  "home.stats.cities": {
+    "en": "Cities — Dublin & Budapest",
+    "hu": "Város — Dublin és Budapest",
+    "es": "Ciudades — Dublín y Budapest",
+    "it": "Città — Dublino e Budapest",
+    "fr": "Villes — Dublin et Budapest",
+    "de": "Städte — Dublin & Budapest",
+    "pt": "Cidades — Dublin e Budapeste"
+  },
+  "home.ireland.eyebrow": {
+    "en": "A slice of Ireland",
+    "hu": "Egy szelet Írország",
+    "es": "Un trozo de Irlanda",
+    "it": "Un assaggio d'Irlanda",
+    "fr": "Un morceau d'Irlande",
+    "de": "Ein Stück Irland",
+    "pt": "Um pedaço da Irlanda"
+  },
+  "home.ireland.h2": {
+    "en": "Iconic landmarks, hidden gems and <span class=\"h-accent\">real local stories.</span>",
+    "hu": "Ikonikus látnivalók, rejtett gyöngyszemek és <span class=\"h-accent\">valódi helyi történetek.</span>",
+    "es": "Lugares emblemáticos, rincones secretos y <span class=\"h-accent\">auténticas historias locales.</span>",
+    "it": "Monumenti iconici, gemme nascoste e <span class=\"h-accent\">storie locali autentiche.</span>",
+    "fr": "Monuments emblématiques, trésors cachés et <span class=\"h-accent\">vraies histoires locales.</span>",
+    "de": "Berühmte Wahrzeichen, versteckte Schätze und <span class=\"h-accent\">echte lokale Geschichten.</span>",
+    "pt": "Monumentos icónicos, joias escondidas e <span class=\"h-accent\">histórias locais autênticas.</span>"
+  },
+  "home.ireland.lead": {
+    "en": "Our partner tour operators bring students to the places every visitor should see — and explain the history that makes them matter.",
+    "hu": "Túraszervező partnereink elviszik a diákokat azokra a helyekre, amelyeket minden látogatónak látnia kell — és elmagyarázzák a történetet, amitől fontosak.",
+    "es": "Nuestros operadores turísticos llevan a los estudiantes a los lugares que todo visitante debería ver — y les explican la historia que los hace especiales.",
+    "it": "I nostri operatori portano gli studenti nei luoghi che ogni visitatore dovrebbe vedere — spiegando la storia che li rende speciali.",
+    "fr": "Nos partenaires emmènent les étudiants dans les lieux que tout visiteur devrait voir — et racontent l'histoire qui les rend uniques.",
+    "de": "Unsere Tourpartner bringen Studierende an die Orte, die jeder Besucher gesehen haben sollte — und erklären die Geschichte dahinter.",
+    "pt": "Os nossos parceiros turísticos levam os estudantes aos lugares que todos os visitantes devem ver — e explicam a história que os torna especiais."
+  },
+  "home.ireland.cap.cliffs": {
+    "en": "Cliffs of Moher",
+    "hu": "Moher-sziklák",
+    "es": "Acantilados de Moher",
+    "it": "Cliffs of Moher",
+    "fr": "Falaises de Moher",
+    "de": "Cliffs of Moher",
+    "pt": "Falésias de Moher"
+  },
+  "home.ireland.cap.howth": {
+    "en": "Howth Cliff Walk",
+    "hu": "Howth-szikla sétány",
+    "es": "Paseo de Howth Cliff",
+    "it": "Howth Cliff Walk",
+    "fr": "Sentier de Howth",
+    "de": "Howth Cliff Walk",
+    "pt": "Caminho de Howth Cliff"
+  },
+  "home.ireland.cap.castle": {
+    "en": "Dublin Castle",
+    "hu": "Dublini vár",
+    "es": "Castillo de Dublín",
+    "it": "Castello di Dublino",
+    "fr": "Château de Dublin",
+    "de": "Dublin Castle",
+    "pt": "Castelo de Dublin"
+  },
+  "home.ireland.cap.beach": {
+    "en": "West coast beaches",
+    "hu": "Nyugati parti strandok",
+    "es": "Playas de la costa oeste",
+    "it": "Spiagge della costa occidentale",
+    "fr": "Plages de la côte ouest",
+    "de": "Strände der Westküste",
+    "pt": "Praias da costa oeste"
+  },
+  "home.test.eyebrow": {
+    "en": "Student stories",
+    "hu": "Diákok történetei",
+    "es": "Historias de estudiantes",
+    "it": "Storie di studenti",
+    "fr": "Témoignages d'étudiants",
+    "de": "Studentenstimmen",
+    "pt": "Histórias de estudantes"
+  },
+  "home.test.h2": {
+    "en": "\"I came as a student. I left with a <span class=\"h-accent\">second family.</span>\"",
+    "hu": "„Diákként érkeztem. <span class=\"h-accent\">Második családdal</span> távoztam.\"",
+    "es": "\"Llegué como estudiante. Me fui con una <span class=\"h-accent\">segunda familia.</span>\"",
+    "it": "\"Sono arrivato come studente. Sono partito con una <span class=\"h-accent\">seconda famiglia.</span>\"",
+    "fr": "« Je suis venu en étudiant. Je suis reparti avec une <span class=\"h-accent\">seconde famille.</span> »",
+    "de": "„Ich kam als Student. Ich ging mit einer <span class=\"h-accent\">zweiten Familie.</span>\"",
+    "pt": "\"Cheguei como estudante. Parti com uma <span class=\"h-accent\">segunda família.</span>\""
+  },
+  "home.test.lead": {
+    "en": "Voices from students who joined our Erasmus programme over the last year.",
+    "hu": "Diákok hangja, akik az elmúlt évben csatlakoztak Erasmus programunkhoz.",
+    "es": "Voces de estudiantes que se unieron a nuestro programa Erasmus el año pasado.",
+    "it": "Voci di studenti che hanno partecipato al nostro programma Erasmus nell'ultimo anno.",
+    "fr": "Témoignages d'étudiants ayant rejoint notre programme Erasmus cette année.",
+    "de": "Stimmen von Studierenden, die im letzten Jahr an unserem Erasmus-Programm teilgenommen haben.",
+    "pt": "Vozes de estudantes que se juntaram ao nosso programa Erasmus no último ano."
+  },
+  "home.test.t1.quote": {
+    "en": "\"My host family welcomed me like one of their own. The home-cooked Irish stew, the stories at dinner, the tours on weekends — I couldn't have asked for a better Erasmus.\"",
+    "hu": "„Vendéglátó családom úgy fogadott, mintha közéjük tartoznék. A házi ír pörkölt, a vacsorai történetek, a hétvégi túrák — jobb Erasmust nem is kívánhattam volna.\"",
+    "es": "\"Mi familia de acogida me recibió como uno más. El estofado irlandés casero, las historias en la cena, las excursiones del fin de semana — no podría haber pedido un Erasmus mejor.\"",
+    "it": "\"La famiglia ospitante mi ha accolto come uno di loro. Lo stufato irlandese fatto in casa, le storie a cena, le gite del weekend — non potevo chiedere un Erasmus migliore.\"",
+    "fr": "« Ma famille d'accueil m'a accueilli comme un des leurs. Le ragoût irlandais maison, les histoires au dîner, les sorties le week-end — je n'aurais pas pu rêver mieux pour mon Erasmus. »",
+    "de": "„Meine Gastfamilie nahm mich auf wie einen der Ihren. Der hausgemachte Irish Stew, die Geschichten beim Abendessen, die Touren am Wochenende — ein besseres Erasmus hätte ich mir nicht wünschen können.\"",
+    "pt": "\"A minha família de acolhimento recebeu-me como um deles. O ensopado irlandês caseiro, as histórias ao jantar, as visitas ao fim de semana — não podia ter pedido um Erasmus melhor.\""
+  },
+  "home.test.t1.role": {
+    "en": "From Lyon, France — 2025",
+    "hu": "Lyonból, Franciaország — 2025",
+    "es": "De Lyon, Francia — 2025",
+    "it": "Da Lione, Francia — 2025",
+    "fr": "De Lyon, France — 2025",
+    "de": "Aus Lyon, Frankreich — 2025",
+    "pt": "De Lyon, França — 2025"
+  },
+  "home.test.t2.quote": {
+    "en": "\"The internship placement matched exactly what I studied. My English improved enormously and the Cliffs of Moher trip was unforgettable. Travel Trips made every detail simple.\"",
+    "hu": "„A szakmai gyakorlat pontosan illett a tanulmányaimhoz. Az angolom rengeteget fejlődött, a Moher-sziklai kirándulás pedig felejthetetlen volt. A Travel Trips minden részletet egyszerűvé tett.\"",
+    "es": "\"Las prácticas encajaron perfectamente con lo que estudio. Mi inglés mejoró muchísimo y la excursión a los Acantilados de Moher fue inolvidable. Travel Trips lo hizo todo sencillo.\"",
+    "it": "\"Lo stage corrispondeva esattamente al mio percorso di studi. Il mio inglese è migliorato moltissimo e la gita alle Cliffs of Moher è stata indimenticabile. Travel Trips ha reso tutto semplice.\"",
+    "fr": "« Mon stage correspondait exactement à mes études. Mon anglais s'est énormément amélioré et la sortie aux Cliffs of Moher était inoubliable. Travel Trips a tout simplifié. »",
+    "de": "„Das Praktikum passte genau zu meinem Studium. Mein Englisch hat sich enorm verbessert und der Ausflug zu den Cliffs of Moher war unvergesslich. Travel Trips hat alles einfach gemacht.\"",
+    "pt": "\"O estágio correspondeu exatamente ao que estudo. O meu inglês melhorou imenso e a visita às Cliffs of Moher foi inesquecível. A Travel Trips simplificou cada detalhe.\""
+  },
+  "home.test.t2.role": {
+    "en": "From Madrid, Spain — 2025",
+    "hu": "Madridból, Spanyolország — 2025",
+    "es": "De Madrid, España — 2025",
+    "it": "Da Madrid, Spagna — 2025",
+    "fr": "De Madrid, Espagne — 2025",
+    "de": "Aus Madrid, Spanien — 2025",
+    "pt": "De Madrid, Espanha — 2025"
+  },
+  "home.test.t3.quote": {
+    "en": "\"Picked up at the airport at midnight, dropped at a home where dinner was waiting. From day one we felt looked after. Ireland now feels like a second home.\"",
+    "hu": "„Éjfélkor vettek fel a reptéren, és olyan otthonba vittek, ahol vacsora várt. Az első naptól kezdve gondoskodtak rólunk. Írország ma második otthonom.\"",
+    "es": "\"Nos recogieron a medianoche en el aeropuerto y nos llevaron a una casa donde la cena ya estaba lista. Desde el primer día nos sentimos cuidados. Irlanda ahora es mi segundo hogar.\"",
+    "it": "\"Ci hanno preso all'aeroporto a mezzanotte e portati in una casa dove la cena ci aspettava. Dal primo giorno ci siamo sentiti accolti. L'Irlanda è la mia seconda casa.\"",
+    "fr": "« Récupérés à l'aéroport à minuit, déposés dans une maison où le dîner nous attendait. Dès le premier jour, on s'est senti choyé. L'Irlande est devenue ma seconde maison. »",
+    "de": "„Um Mitternacht am Flughafen abgeholt und in ein Zuhause gebracht, wo das Abendessen wartete. Vom ersten Tag an haben wir uns aufgehoben gefühlt. Irland ist nun ein zweites Zuhause.\"",
+    "pt": "\"Levaram-nos do aeroporto à meia-noite e deixaram-nos numa casa onde o jantar nos esperava. Desde o primeiro dia sentimo-nos acolhidos. A Irlanda é agora a minha segunda casa.\""
+  },
+  "home.test.t3.role": {
+    "en": "From Berlin, Germany — 2025",
+    "hu": "Berlinből, Németország — 2025",
+    "es": "De Berlín, Alemania — 2025",
+    "it": "Da Berlino, Germania — 2025",
+    "fr": "De Berlin, Allemagne — 2025",
+    "de": "Aus Berlin, Deutschland — 2025",
+    "pt": "De Berlim, Alemanha — 2025"
+  },
+  "home.locs.eyebrow": {
+    "en": "Where we work",
+    "hu": "Hol dolgozunk",
+    "es": "Dónde trabajamos",
+    "it": "Dove operiamo",
+    "fr": "Où nous opérons",
+    "de": "Wo wir tätig sind",
+    "pt": "Onde trabalhamos"
+  },
+  "home.locs.h2": {
+    "en": "Two cities. <span class=\"h-accent\">One promise.</span>",
+    "hu": "Két város. <span class=\"h-accent\">Egy ígéret.</span>",
+    "es": "Dos ciudades. <span class=\"h-accent\">Una promesa.</span>",
+    "it": "Due città. <span class=\"h-accent\">Una promessa.</span>",
+    "fr": "Deux villes. <span class=\"h-accent\">Une promesse.</span>",
+    "de": "Zwei Städte. <span class=\"h-accent\">Ein Versprechen.</span>",
+    "pt": "Duas cidades. <span class=\"h-accent\">Uma promessa.</span>"
+  },
+  "home.locs.lead": {
+    "en": "Travel Trips operates on the ground in both Dublin and Budapest, with the same standard of care in each.",
+    "hu": "A Travel Trips Dublinban és Budapesten is helyben dolgozik, ugyanazzal a gondoskodással.",
+    "es": "Travel Trips opera sobre el terreno tanto en Dublín como en Budapest, con el mismo nivel de atención en cada ciudad.",
+    "it": "Travel Trips opera sul posto sia a Dublino che a Budapest, con lo stesso standard di cura.",
+    "fr": "Travel Trips opère sur place à Dublin et à Budapest, avec le même niveau d'attention dans chaque ville.",
+    "de": "Travel Trips ist sowohl in Dublin als auch in Budapest vor Ort tätig — mit demselben Anspruch an Betreuung.",
+    "pt": "A Travel Trips opera no terreno em Dublin e em Budapeste, com o mesmo padrão de cuidado."
+  },
+  "home.locs.ireland": {
+    "en": "Ireland",
+    "hu": "Írország",
+    "es": "Irlanda",
+    "it": "Irlanda",
+    "fr": "Irlande",
+    "de": "Irland",
+    "pt": "Irlanda"
+  },
+  "home.locs.hungary": {
+    "en": "Hungary",
+    "hu": "Magyarország",
+    "es": "Hungría",
+    "it": "Ungheria",
+    "fr": "Hongrie",
+    "de": "Ungarn",
+    "pt": "Hungria"
+  },
+  "home.locs.dublin.body": {
+    "en": "Our home base. Host families across the city, partner internships in central Dublin, and tour partners covering Howth, the Cliffs of Moher, west-coast beaches and Dublin's historic centre.",
+    "hu": "A főhadiszállásunk. Vendéglátó családok az egész városban, partner-szakmai gyakorlatok Dublin központjában, és túrapartnerek, akik lefedik Howth-t, a Moher-sziklákat, a nyugati parti strandokat és Dublin történelmi belvárosát.",
+    "es": "Nuestra sede principal. Familias de acogida por toda la ciudad, prácticas asociadas en el centro de Dublín y operadores turísticos que cubren Howth, los Acantilados de Moher, las playas de la costa oeste y el centro histórico de Dublín.",
+    "it": "La nostra base. Famiglie ospitanti in tutta la città, stage in centro a Dublino e partner per tour che coprono Howth, le Cliffs of Moher, le spiagge della costa occidentale e il centro storico.",
+    "fr": "Notre base. Familles d'accueil dans toute la ville, stages partenaires au centre de Dublin, et opérateurs couvrant Howth, les Cliffs of Moher, les plages de la côte ouest et le centre historique.",
+    "de": "Unsere Basis. Gastfamilien in der ganzen Stadt, Partner-Praktika im Zentrum Dublins und Tourpartner für Howth, die Cliffs of Moher, die Westküstenstrände und Dublins historisches Zentrum.",
+    "pt": "A nossa base. Famílias de acolhimento por toda a cidade, estágios parceiros no centro de Dublin e parceiros turísticos que cobrem Howth, as Cliffs of Moher, as praias da costa oeste e o centro histórico."
+  },
+  "home.locs.budapest.body": {
+    "en": "A growing programme along the Danube — internships, student accommodation, English classes and tours through one of Europe's most beautiful capitals.",
+    "hu": "Bővülő program a Duna mentén — szakmai gyakorlatok, diákszállás, angol órák és túrák Európa egyik legszebb fővárosában.",
+    "es": "Un programa en crecimiento a orillas del Danubio — prácticas, alojamiento para estudiantes, clases de inglés y excursiones por una de las capitales más bellas de Europa.",
+    "it": "Un programma in crescita lungo il Danubio — stage, alloggi per studenti, corsi di inglese e tour in una delle capitali più belle d'Europa.",
+    "fr": "Un programme en pleine croissance le long du Danube — stages, hébergement étudiant, cours d'anglais et visites dans l'une des plus belles capitales d'Europe.",
+    "de": "Ein wachsendes Programm an der Donau — Praktika, Studierendenunterkünfte, Englischkurse und Touren durch eine der schönsten Hauptstädte Europas.",
+    "pt": "Um programa em crescimento ao longo do Danúbio — estágios, alojamento para estudantes, aulas de inglês e visitas por uma das capitais mais bonitas da Europa."
+  },
+  "home.gallery.eyebrow": {
+    "en": "Past students",
+    "hu": "Korábbi diákok",
+    "es": "Antiguos estudiantes",
+    "it": "Studenti del passato",
+    "fr": "Anciens étudiants",
+    "de": "Ehemalige Studierende",
+    "pt": "Antigos estudantes"
+  },
+  "home.gallery.h2": {
+    "en": "Real journeys, <span class=\"h-accent\">captured.</span>",
+    "hu": "Igazi utazások, <span class=\"h-accent\">megörökítve.</span>",
+    "es": "Viajes reales, <span class=\"h-accent\">capturados.</span>",
+    "it": "Viaggi reali, <span class=\"h-accent\">catturati.</span>",
+    "fr": "De vrais voyages, <span class=\"h-accent\">capturés.</span>",
+    "de": "Echte Reisen, <span class=\"h-accent\">festgehalten.</span>",
+    "pt": "Viagens reais, <span class=\"h-accent\">captadas.</span>"
+  },
+  "home.gallery.lead": {
+    "en": "Photos from students who lived with our host families, did internships, climbed cliffs and made friends for life.",
+    "hu": "Fotók diákoktól, akik vendéglátó családoknál éltek, szakmai gyakorlatot végeztek, sziklákat másztak és életre szóló barátságokat kötöttek.",
+    "es": "Fotos de estudiantes que vivieron con nuestras familias de acogida, hicieron prácticas, escalaron acantilados e hicieron amigos para toda la vida.",
+    "it": "Foto di studenti che hanno vissuto nelle nostre famiglie ospitanti, fatto stage, scalato scogliere e stretto amicizie per la vita.",
+    "fr": "Photos d'étudiants qui ont vécu dans nos familles d'accueil, fait leur stage, gravi des falaises et noué des amitiés pour la vie.",
+    "de": "Fotos von Studierenden, die in unseren Gastfamilien gelebt, Praktika absolviert, Klippen erklommen und Freunde fürs Leben gefunden haben.",
+    "pt": "Fotos de estudantes que viveram com as nossas famílias de acolhimento, fizeram estágios, subiram falésias e fizeram amigos para a vida."
+  },
+  "home.cta.h2": {
+    "en": "Ready to begin your <span class=\"h-accent\">Erasmus adventure?</span>",
+    "hu": "Készen áll, hogy elkezdje <span class=\"h-accent\">Erasmus kalandját?</span>",
+    "es": "¿Listo para empezar tu <span class=\"h-accent\">aventura Erasmus?</span>",
+    "it": "Pronto a iniziare la tua <span class=\"h-accent\">avventura Erasmus?</span>",
+    "fr": "Prêt à commencer votre <span class=\"h-accent\">aventure Erasmus ?</span>",
+    "de": "Bereit für Ihr <span class=\"h-accent\">Erasmus-Abenteuer?</span>",
+    "pt": "Pronto para começar a sua <span class=\"h-accent\">aventura Erasmus?</span>"
+  },
+  "home.cta.body": {
+    "en": "Tell us about your group, your city of choice and your dates — we'll put together a programme that fits.",
+    "hu": "Mesélje el a csoportját, a választott várost és az időpontokat — összeállítunk egy programot, ami pontosan illik.",
+    "es": "Cuéntanos sobre tu grupo, tu ciudad preferida y tus fechas — diseñaremos un programa a tu medida.",
+    "it": "Raccontaci del tuo gruppo, della città scelta e delle date — costruiremo un programma su misura.",
+    "fr": "Parlez-nous de votre groupe, de votre ville préférée et de vos dates — nous monterons un programme sur mesure.",
+    "de": "Erzählen Sie uns von Ihrer Gruppe, Ihrer Wunschstadt und Ihren Daten — wir stellen ein passendes Programm zusammen.",
+    "pt": "Conte-nos sobre o seu grupo, a sua cidade preferida e as suas datas — vamos montar um programa à medida."
+  },
+  "about.title": {
+    "en": "About — Travel Trips",
+    "hu": "Rólunk — Travel Trips",
+    "es": "Sobre nosotros — Travel Trips",
+    "it": "Chi siamo — Travel Trips",
+    "fr": "À propos — Travel Trips",
+    "de": "Über uns — Travel Trips",
+    "pt": "Sobre — Travel Trips"
+  },
+  "about.description": {
+    "en": "A decade of hosting Erasmus students in Dublin and Budapest. Meet the team and the host families behind Travel Trips.",
+    "hu": "Egy évtizede fogadunk Erasmus-diákokat Dublinban és Budapesten. Ismerje meg a Travel Trips csapatát és a vendéglátó családokat.",
+    "es": "Una década acogiendo a estudiantes Erasmus en Dublín y Budapest. Conoce al equipo y a las familias de acogida detrás de Travel Trips.",
+    "it": "Un decennio di accoglienza di studenti Erasmus a Dublino e Budapest. Conosci il team e le famiglie ospitanti dietro Travel Trips.",
+    "fr": "Une décennie à accueillir des étudiants Erasmus à Dublin et Budapest. Découvrez l'équipe et les familles d'accueil derrière Travel Trips.",
+    "de": "Ein Jahrzehnt Gastgebersein für Erasmus-Studierende in Dublin und Budapest. Lernen Sie das Team und die Gastfamilien hinter Travel Trips kennen.",
+    "pt": "Uma década a acolher estudantes Erasmus em Dublin e Budapeste. Conheça a equipa e as famílias de acolhimento por trás da Travel Trips."
+  },
+  "about.bc": {
+    "en": "About",
+    "hu": "Rólunk",
+    "es": "Quiénes somos",
+    "it": "Chi siamo",
+    "fr": "À propos",
+    "de": "Über uns",
+    "pt": "Sobre"
+  },
+  "about.hero.eyebrow": {
+    "en": "Our story",
+    "hu": "Történetünk",
+    "es": "Nuestra historia",
+    "it": "La nostra storia",
+    "fr": "Notre histoire",
+    "de": "Unsere Geschichte",
+    "pt": "A nossa história"
+  },
+  "about.hero.h1": {
+    "en": "A decade of <span class=\"h-accent\">welcoming students</span> into our cities.",
+    "hu": "Egy évtizede <span class=\"h-accent\">fogadunk diákokat</span> városainkban.",
+    "es": "Una década <span class=\"h-accent\">recibiendo estudiantes</span> en nuestras ciudades.",
+    "it": "Un decennio di <span class=\"h-accent\">accoglienza di studenti</span> nelle nostre città.",
+    "fr": "Une décennie à <span class=\"h-accent\">accueillir des étudiants</span> dans nos villes.",
+    "de": "Ein Jahrzehnt <span class=\"h-accent\">Studierende willkommen heißen</span> in unseren Städten.",
+    "pt": "Uma década a <span class=\"h-accent\">acolher estudantes</span> nas nossas cidades."
+  },
+  "about.hero.lead": {
+    "en": "Travel Trips began with a simple idea — that an Erasmus experience is only as good as the people you meet along the way. Ten years later, we've built a network of host families, partner schools and tour operators across Dublin and Budapest that share that belief.",
+    "hu": "A Travel Trips egy egyszerű gondolattal indult — egy Erasmus-élmény csak olyan jó, amilyen jók az emberek, akikkel az út során találkozunk. Tíz évvel később olyan vendéglátó családok, partneriskolák és túraszervezők hálózatát építettük ki Dublinban és Budapesten, akik osztják ezt a hitet.",
+    "es": "Travel Trips nació con una idea sencilla — una experiencia Erasmus es tan buena como las personas que se cruzan en el camino. Diez años después, hemos construido una red de familias de acogida, escuelas asociadas y operadores turísticos en Dublín y Budapest que comparten esa convicción.",
+    "it": "Travel Trips è nata con un'idea semplice — un'esperienza Erasmus vale quanto le persone che si incontrano. Dieci anni dopo, abbiamo costruito a Dublino e Budapest una rete di famiglie ospitanti, scuole partner e operatori turistici che condividono questa visione.",
+    "fr": "Travel Trips est née d'une idée simple — un Erasmus n'est aussi réussi que les personnes qu'on y rencontre. Dix ans plus tard, nous avons bâti à Dublin et Budapest un réseau de familles d'accueil, d'écoles partenaires et d'opérateurs touristiques qui partagent cette conviction.",
+    "de": "Travel Trips begann mit einer einfachen Idee — ein Erasmus-Erlebnis ist nur so gut wie die Menschen, denen man unterwegs begegnet. Zehn Jahre später haben wir in Dublin und Budapest ein Netzwerk aus Gastfamilien, Partnerschulen und Tourpartnern aufgebaut, das diese Überzeugung teilt.",
+    "pt": "A Travel Trips nasceu de uma ideia simples — uma experiência Erasmus vale tanto quanto as pessoas que se cruzam no caminho. Dez anos depois, construímos em Dublin e Budapeste uma rede de famílias de acolhimento, escolas parceiras e operadores turísticos que partilham essa convicção."
+  },
+  "about.mission.eyebrow": {
+    "en": "Our mission",
+    "hu": "Küldetésünk",
+    "es": "Nuestra misión",
+    "it": "La nostra missione",
+    "fr": "Notre mission",
+    "de": "Unsere Mission",
+    "pt": "A nossa missão"
+  },
+  "about.mission.h2": {
+    "en": "Make every Erasmus feel <span class=\"h-accent\">like coming home.</span>",
+    "hu": "Minden Erasmus érződjön úgy, <span class=\"h-accent\">mint hazatérni.</span>",
+    "es": "Que cada Erasmus se sienta <span class=\"h-accent\">como volver a casa.</span>",
+    "it": "Far sì che ogni Erasmus sembri <span class=\"h-accent\">come tornare a casa.</span>",
+    "fr": "Faire en sorte que chaque Erasmus ressemble à <span class=\"h-accent\">un retour à la maison.</span>",
+    "de": "Jedes Erasmus soll sich anfühlen <span class=\"h-accent\">wie nach Hause kommen.</span>",
+    "pt": "Fazer com que cada Erasmus se sinta <span class=\"h-accent\">como voltar a casa.</span>"
+  },
+  "about.values.eyebrow": {
+    "en": "What we stand for",
+    "hu": "Amiért kiállunk",
+    "es": "Lo que defendemos",
+    "it": "I nostri valori",
+    "fr": "Ce que nous défendons",
+    "de": "Wofür wir stehen",
+    "pt": "O que defendemos"
+  },
+  "about.values.h2": {
+    "en": "Four principles that <span class=\"h-accent\">guide every decision.</span>",
+    "hu": "Négy alapelv, amely <span class=\"h-accent\">minden döntésünket vezérli.</span>",
+    "es": "Cuatro principios que <span class=\"h-accent\">guían cada decisión.</span>",
+    "it": "Quattro principi che <span class=\"h-accent\">guidano ogni decisione.</span>",
+    "fr": "Quatre principes qui <span class=\"h-accent\">guident chaque décision.</span>",
+    "de": "Vier Prinzipien, die <span class=\"h-accent\">jede Entscheidung leiten.</span>",
+    "pt": "Quatro princípios que <span class=\"h-accent\">orientam cada decisão.</span>"
+  },
+  "about.values.card1.title": {
+    "en": "Hospitality first",
+    "hu": "A vendégszeretet az első",
+    "es": "La hospitalidad primero",
+    "it": "L'ospitalità prima di tutto",
+    "fr": "L'hospitalité d'abord",
+    "de": "Gastfreundschaft zuerst",
+    "pt": "Hospitalidade em primeiro lugar"
+  },
+  "about.values.card2.title": {
+    "en": "Trusted partners",
+    "hu": "Megbízható partnerek",
+    "es": "Socios de confianza",
+    "it": "Partner di fiducia",
+    "fr": "Des partenaires de confiance",
+    "de": "Vertrauenswürdige Partner",
+    "pt": "Parceiros de confiança"
+  },
+  "about.values.card3.title": {
+    "en": "Long-term relationships",
+    "hu": "Hosszú távú kapcsolatok",
+    "es": "Relaciones a largo plazo",
+    "it": "Relazioni a lungo termine",
+    "fr": "Des relations durables",
+    "de": "Langfristige Beziehungen",
+    "pt": "Relações de longo prazo"
+  },
+  "about.values.card4.title": {
+    "en": "Always reachable",
+    "hu": "Mindig elérhető",
+    "es": "Siempre disponibles",
+    "it": "Sempre raggiungibili",
+    "fr": "Toujours joignables",
+    "de": "Immer erreichbar",
+    "pt": "Sempre disponíveis"
+  },
+  "about.culture.eyebrow": {
+    "en": "Irish culture, daily life",
+    "hu": "Ír kultúra, mindennapi élet",
+    "es": "Cultura irlandesa, vida diaria",
+    "it": "Cultura irlandese, vita quotidiana",
+    "fr": "Culture irlandaise, vie quotidienne",
+    "de": "Irische Kultur, Alltag",
+    "pt": "Cultura irlandesa, vida quotidiana"
+  },
+  "about.culture.h2": {
+    "en": "Students leave with <span class=\"h-accent\">a piece of Ireland</span> they'll carry forever.",
+    "hu": "A diákok <span class=\"h-accent\">egy darabka Írországgal</span> távoznak, amit örökre magukkal visznek.",
+    "es": "Los estudiantes se llevan <span class=\"h-accent\">un pedazo de Irlanda</span> que conservarán para siempre.",
+    "it": "Gli studenti partono con <span class=\"h-accent\">un pezzo d'Irlanda</span> che porteranno per sempre.",
+    "fr": "Les étudiants repartent avec <span class=\"h-accent\">un morceau d'Irlande</span> qu'ils garderont à jamais.",
+    "de": "Studierende nehmen <span class=\"h-accent\">ein Stück Irland</span> mit, das sie für immer begleitet.",
+    "pt": "Os estudantes partem com <span class=\"h-accent\">um pedaço da Irlanda</span> que levarão para sempre."
+  },
+  "about.cta.h2": {
+    "en": "Bringing a group of students next term?",
+    "hu": "Diákcsoportot hoz a következő félévre?",
+    "es": "¿Traes un grupo de estudiantes el próximo semestre?",
+    "it": "Porti un gruppo di studenti il prossimo semestre?",
+    "fr": "Vous amenez un groupe d'étudiants au prochain semestre ?",
+    "de": "Bringen Sie nächstes Semester eine Studentengruppe?",
+    "pt": "Vai trazer um grupo de estudantes no próximo semestre?"
+  },
+  "about.stats.students": {
+    "en": "Students hosted",
+    "hu": "Vendégül látott diák",
+    "es": "Estudiantes alojados",
+    "it": "Studenti ospitati",
+    "fr": "Étudiants accueillis",
+    "de": "Beherbergte Studierende",
+    "pt": "Estudantes acolhidos"
+  },
+  "about.stats.cities": {
+    "en": "Cities",
+    "hu": "Város",
+    "es": "Ciudades",
+    "it": "Città",
+    "fr": "Villes",
+    "de": "Städte",
+    "pt": "Cidades"
+  },
+  "contact.title": {
+    "en": "Contact — Travel Trips",
+    "hu": "Kapcsolat — Travel Trips",
+    "es": "Contacto — Travel Trips",
+    "it": "Contatti — Travel Trips",
+    "fr": "Contact — Travel Trips",
+    "de": "Kontakt — Travel Trips",
+    "pt": "Contacto — Travel Trips"
+  },
+  "contact.description": {
+    "en": "Get in touch with the Travel Trips team in Dublin or Budapest. 24/7 contact for partner schools, universities and Erasmus coordinators.",
+    "hu": "Lépjen kapcsolatba a Travel Trips dublini vagy budapesti csapatával. 24/7 elérhetőség partneriskolák, egyetemek és Erasmus-koordinátorok számára.",
+    "es": "Ponte en contacto con el equipo de Travel Trips en Dublín o Budapest. Contacto 24/7 para escuelas asociadas, universidades y coordinadores Erasmus.",
+    "it": "Contatta il team Travel Trips a Dublino o Budapest. Reperibilità 24/7 per scuole partner, università e coordinatori Erasmus.",
+    "fr": "Contactez l'équipe Travel Trips à Dublin ou Budapest. Contact 24/7 pour les écoles partenaires, universités et coordinateurs Erasmus.",
+    "de": "Kontaktieren Sie das Travel-Trips-Team in Dublin oder Budapest. 24/7-Erreichbarkeit für Partnerschulen, Universitäten und Erasmus-Koordinatoren.",
+    "pt": "Contacte a equipa Travel Trips em Dublin ou Budapeste. Contacto 24/7 para escolas parceiras, universidades e coordenadores Erasmus."
+  },
+  "contact.bc": {
+    "en": "Contact",
+    "hu": "Kapcsolat",
+    "es": "Contacto",
+    "it": "Contatti",
+    "fr": "Contact",
+    "de": "Kontakt",
+    "pt": "Contacto"
+  },
+  "contact.hero.eyebrow": {
+    "en": "Get in touch",
+    "hu": "Lépjen kapcsolatba",
+    "es": "Contáctanos",
+    "it": "Mettiti in contatto",
+    "fr": "Prenez contact",
+    "de": "Nehmen Sie Kontakt auf",
+    "pt": "Entre em contacto"
+  },
+  "contact.hero.h1": {
+    "en": "Let's plan your <span class=\"h-accent\">next Erasmus.</span>",
+    "hu": "Tervezzük meg a <span class=\"h-accent\">következő Erasmusát.</span>",
+    "es": "Planifiquemos tu <span class=\"h-accent\">próximo Erasmus.</span>",
+    "it": "Pianifichiamo il tuo <span class=\"h-accent\">prossimo Erasmus.</span>",
+    "fr": "Planifions votre <span class=\"h-accent\">prochain Erasmus.</span>",
+    "de": "Lassen Sie uns Ihr <span class=\"h-accent\">nächstes Erasmus</span> planen.",
+    "pt": "Vamos planear o seu <span class=\"h-accent\">próximo Erasmus.</span>"
+  },
+  "contact.hero.lead": {
+    "en": "Tell us about your group, your preferred city and your dates — we'll come back within one working day with a tailored programme.",
+    "hu": "Mesélje el a csoportját, a preferált várost és az időpontokat — egy munkanapon belül visszajelzünk egy testreszabott programmal.",
+    "es": "Cuéntanos sobre tu grupo, tu ciudad preferida y tus fechas — te responderemos en un día laborable con un programa a medida.",
+    "it": "Raccontaci del tuo gruppo, della città preferita e delle date — ti risponderemo entro un giorno lavorativo con un programma su misura.",
+    "fr": "Parlez-nous de votre groupe, de votre ville préférée et de vos dates — nous reviendrons sous un jour ouvré avec un programme sur mesure.",
+    "de": "Erzählen Sie uns von Ihrer Gruppe, Ihrer Wunschstadt und Ihren Daten — wir melden uns innerhalb eines Werktags mit einem maßgeschneiderten Programm.",
+    "pt": "Conte-nos sobre o seu grupo, a sua cidade preferida e as suas datas — responderemos no prazo de um dia útil com um programa à medida."
+  },
+  "contact.info.line24": {
+    "en": "24/7 student line",
+    "hu": "24/7 diákvonal",
+    "es": "Línea estudiantil 24/7",
+    "it": "Linea studenti 24/7",
+    "fr": "Ligne étudiante 24/7",
+    "de": "24/7-Studierendenhotline",
+    "pt": "Linha de estudantes 24/7"
+  },
+  "contact.info.line24_sub": {
+    "en": "For students currently on programme",
+    "hu": "A jelenleg programon lévő diákoknak",
+    "es": "Para estudiantes que están en el programa",
+    "it": "Per studenti attualmente in programma",
+    "fr": "Pour les étudiants actuellement sur le programme",
+    "de": "Für Studierende, die aktuell am Programm teilnehmen",
+    "pt": "Para estudantes atualmente no programa"
+  },
+  "contact.form.name": {
+    "en": "Your name",
+    "hu": "Az Ön neve",
+    "es": "Tu nombre",
+    "it": "Il tuo nome",
+    "fr": "Votre nom",
+    "de": "Ihr Name",
+    "pt": "O seu nome"
+  },
+  "contact.form.name_ph": {
+    "en": "Jane Doe",
+    "hu": "Kovács Anna",
+    "es": "Ana García",
+    "it": "Maria Rossi",
+    "fr": "Jeanne Dupont",
+    "de": "Anna Schmidt",
+    "pt": "Joana Silva"
+  },
+  "contact.form.org": {
+    "en": "School / organisation",
+    "hu": "Iskola / szervezet",
+    "es": "Escuela / organización",
+    "it": "Scuola / organizzazione",
+    "fr": "École / organisation",
+    "de": "Schule / Organisation",
+    "pt": "Escola / organização"
+  },
+  "contact.form.org_ph": {
+    "en": "Lycée Saint-Marc",
+    "hu": "Pl. Kossuth Lajos Gimnázium",
+    "es": "p. ej. IES Cervantes",
+    "it": "es. Liceo Manzoni",
+    "fr": "Lycée Saint-Marc",
+    "de": "z. B. Goethe-Gymnasium",
+    "pt": "ex. Escola Secundária Camões"
+  },
+  "contact.form.email": {
+    "en": "Email",
+    "hu": "E-mail",
+    "es": "Correo electrónico",
+    "it": "Email",
+    "fr": "E-mail",
+    "de": "E-Mail",
+    "pt": "E-mail"
+  },
+  "contact.form.email_ph": {
+    "en": "you@school.edu",
+    "hu": "on@iskola.hu",
+    "es": "tu@escuela.es",
+    "it": "tu@scuola.it",
+    "fr": "vous@ecole.fr",
+    "de": "sie@schule.de",
+    "pt": "voce@escola.pt"
+  },
+  "contact.form.city": {
+    "en": "City of interest",
+    "hu": "Érdeklődési város",
+    "es": "Ciudad de interés",
+    "it": "Città di interesse",
+    "fr": "Ville d'intérêt",
+    "de": "Wunschstadt",
+    "pt": "Cidade de interesse"
+  },
+  "contact.form.city_either": {
+    "en": "Either",
+    "hu": "Mindegy",
+    "es": "Cualquiera",
+    "it": "Indifferente",
+    "fr": "L'une ou l'autre",
+    "de": "Egal",
+    "pt": "Qualquer uma"
+  },
+  "contact.form.group": {
+    "en": "Group size",
+    "hu": "Csoport mérete",
+    "es": "Tamaño del grupo",
+    "it": "Dimensione del gruppo",
+    "fr": "Taille du groupe",
+    "de": "Gruppengröße",
+    "pt": "Tamanho do grupo"
+  },
+  "contact.form.group_ph": {
+    "en": "e.g. 12 students + 2 teachers",
+    "hu": "pl. 12 diák + 2 tanár",
+    "es": "p. ej. 12 estudiantes + 2 profesores",
+    "it": "es. 12 studenti + 2 insegnanti",
+    "fr": "ex. 12 étudiants + 2 enseignants",
+    "de": "z. B. 12 Studierende + 2 Lehrkräfte",
+    "pt": "ex. 12 estudantes + 2 professores"
+  },
+  "contact.form.dates": {
+    "en": "Approximate dates",
+    "hu": "Hozzávetőleges időpontok",
+    "es": "Fechas aproximadas",
+    "it": "Date approssimative",
+    "fr": "Dates approximatives",
+    "de": "Ungefähre Daten",
+    "pt": "Datas aproximadas"
+  },
+  "contact.form.dates_ph": {
+    "en": "e.g. April – May 2026",
+    "hu": "pl. 2026. április – május",
+    "es": "p. ej. abril – mayo 2026",
+    "it": "es. aprile – maggio 2026",
+    "fr": "ex. avril – mai 2026",
+    "de": "z. B. April – Mai 2026",
+    "pt": "ex. abril – maio 2026"
+  },
+  "contact.form.msg": {
+    "en": "Tell us about your programme",
+    "hu": "Mesélje el a programját",
+    "es": "Cuéntanos sobre tu programa",
+    "it": "Raccontaci del tuo programma",
+    "fr": "Parlez-nous de votre programme",
+    "de": "Erzählen Sie uns von Ihrem Programm",
+    "pt": "Conte-nos sobre o seu programa"
+  },
+  "contact.form.msg_ph": {
+    "en": "Internships, English classes, tour preferences, anything special…",
+    "hu": "Szakmai gyakorlat, angol órák, túra preferenciák, bármilyen különleges igény…",
+    "es": "Prácticas, clases de inglés, preferencias de excursión, cualquier detalle especial…",
+    "it": "Stage, corsi di inglese, preferenze sui tour, qualsiasi cosa speciale…",
+    "fr": "Stages, cours d'anglais, préférences de visites, toute demande particulière…",
+    "de": "Praktika, Englischkurse, Tour-Wünsche, alles Besondere…",
+    "pt": "Estágios, aulas de inglês, preferências de visitas, qualquer pedido especial…"
+  },
+  "contact.form.sending": {
+    "en": "Sending…",
+    "hu": "Küldés…",
+    "es": "Enviando…",
+    "it": "Invio in corso…",
+    "fr": "Envoi en cours…",
+    "de": "Wird gesendet…",
+    "pt": "A enviar…"
+  },
+  "contact.form.success": {
+    "en": "Thank you, we'll get back to you as soon as we can.",
+    "hu": "Köszönjük, amint tudunk, visszajelzünk.",
+    "es": "Gracias, te responderemos lo antes posible.",
+    "it": "Grazie, ti risponderemo appena possibile.",
+    "fr": "Merci, nous reviendrons vers vous dès que possible.",
+    "de": "Vielen Dank, wir melden uns so bald wie möglich.",
+    "pt": "Obrigado, responderemos assim que possível."
+  },
+  "contact.form.error": {
+    "en": "Something went wrong. Please email anthony.traveltrips@gmail.com directly.",
+    "hu": "Hiba történt. Kérjük, írjon közvetlenül az anthony.traveltrips@gmail.com címre.",
+    "es": "Algo salió mal. Escribe directamente a anthony.traveltrips@gmail.com.",
+    "it": "Qualcosa è andato storto. Scrivi direttamente a anthony.traveltrips@gmail.com.",
+    "fr": "Une erreur est survenue. Écrivez directement à anthony.traveltrips@gmail.com.",
+    "de": "Etwas ist schiefgelaufen. Bitte schreiben Sie direkt an anthony.traveltrips@gmail.com.",
+    "pt": "Ocorreu um erro. Por favor, escreva diretamente para anthony.traveltrips@gmail.com."
+  },
+  "service.hero.lead_generic": {
+    "en": "End-to-end Erasmus services in Dublin and Budapest. Get in touch and we'll tailor a programme for your group.",
+    "hu": "Teljes körű Erasmus-szolgáltatások Dublinban és Budapesten. Vegye fel velünk a kapcsolatot, és összeállítunk egy programot a csoportjának.",
+    "es": "Servicios Erasmus integrales en Dublín y Budapest. Contáctanos y prepararemos un programa a la medida de tu grupo.",
+    "it": "Servizi Erasmus completi a Dublino e Budapest. Contattaci e prepareremo un programma su misura per il tuo gruppo.",
+    "fr": "Services Erasmus complets à Dublin et Budapest. Contactez-nous et nous bâtirons un programme sur mesure pour votre groupe.",
+    "de": "Komplette Erasmus-Services in Dublin und Budapest. Kontaktieren Sie uns — wir stellen ein Programm für Ihre Gruppe zusammen.",
+    "pt": "Serviços Erasmus completos em Dublin e Budapeste. Fale connosco e preparamos um programa à medida do seu grupo."
+  },
+  "service.erasmus.bc": {
+    "en": "Erasmus Programme",
+    "hu": "Erasmus program",
+    "es": "Programa Erasmus",
+    "it": "Programma Erasmus",
+    "fr": "Programme Erasmus",
+    "de": "Erasmus-Programm",
+    "pt": "Programa Erasmus"
+  },
+  "service.erasmus.hero.eyebrow": {
+    "en": "Flagship service",
+    "hu": "Zászlóshajó szolgáltatásunk",
+    "es": "Servicio estrella",
+    "it": "Servizio di punta",
+    "fr": "Service phare",
+    "de": "Vorzeige-Service",
+    "pt": "Serviço principal"
+  },
+  "service.erasmus.hero.h1": {
+    "en": "A full Erasmus journey — <span class=\"h-accent\">handled end to end.</span>",
+    "hu": "Egy teljes Erasmus utazás — <span class=\"h-accent\">elejétől a végéig megoldva.</span>",
+    "es": "Una experiencia Erasmus completa — <span class=\"h-accent\">gestionada de principio a fin.</span>",
+    "it": "Un'esperienza Erasmus completa — <span class=\"h-accent\">gestita dall'inizio alla fine.</span>",
+    "fr": "Un parcours Erasmus complet — <span class=\"h-accent\">géré de bout en bout.</span>",
+    "de": "Eine komplette Erasmus-Reise — <span class=\"h-accent\">von Anfang bis Ende organisiert.</span>",
+    "pt": "Uma experiência Erasmus completa — <span class=\"h-accent\">gerida de ponta a ponta.</span>"
+  },
+  "service.internships.bc": {
+    "en": "Internships",
+    "hu": "Szakmai gyakorlatok",
+    "es": "Prácticas",
+    "it": "Stage",
+    "fr": "Stages",
+    "de": "Praktika",
+    "pt": "Estágios"
+  },
+  "service.internships.hero.eyebrow": {
+    "en": "Hands-on placements",
+    "hu": "Gyakorlati elhelyezés",
+    "es": "Prácticas en empresa",
+    "it": "Stage operativi",
+    "fr": "Stages en entreprise",
+    "de": "Praxisnahe Praktika",
+    "pt": "Estágios práticos"
+  },
+  "service.internships.hero.h1": {
+    "en": "Real placements in <span class=\"h-accent\">Dublin and Budapest.</span>",
+    "hu": "Valódi szakmai gyakorlatok <span class=\"h-accent\">Dublinban és Budapesten.</span>",
+    "es": "Prácticas reales en <span class=\"h-accent\">Dublín y Budapest.</span>",
+    "it": "Stage reali a <span class=\"h-accent\">Dublino e Budapest.</span>",
+    "fr": "De vrais stages à <span class=\"h-accent\">Dublin et Budapest.</span>",
+    "de": "Echte Praktika in <span class=\"h-accent\">Dublin und Budapest.</span>",
+    "pt": "Estágios reais em <span class=\"h-accent\">Dublin e Budapeste.</span>"
+  },
+  "service.accommodations.bc": {
+    "en": "Accommodations",
+    "hu": "Szállás",
+    "es": "Alojamiento",
+    "it": "Alloggi",
+    "fr": "Hébergement",
+    "de": "Unterkünfte",
+    "pt": "Alojamento"
+  },
+  "service.accommodations.hero.eyebrow": {
+    "en": "Where students stay",
+    "hu": "Ahol a diákok laknak",
+    "es": "Dónde se alojan los estudiantes",
+    "it": "Dove alloggiano gli studenti",
+    "fr": "Où séjournent les étudiants",
+    "de": "Wo Studierende wohnen",
+    "pt": "Onde ficam os estudantes"
+  },
+  "service.accommodations.hero.h1": {
+    "en": "Host families, residences, hotels — <span class=\"h-accent\">a home for every kind of stay.</span>",
+    "hu": "Vendéglátó családok, diákszállók, hotelek — <span class=\"h-accent\">otthon minden típusú tartózkodáshoz.</span>",
+    "es": "Familias de acogida, residencias, hoteles — <span class=\"h-accent\">un hogar para cada tipo de estancia.</span>",
+    "it": "Famiglie ospitanti, residenze, hotel — <span class=\"h-accent\">una casa per ogni tipo di soggiorno.</span>",
+    "fr": "Familles d'accueil, résidences, hôtels — <span class=\"h-accent\">un logement pour chaque type de séjour.</span>",
+    "de": "Gastfamilien, Studentenwohnheime, Hotels — <span class=\"h-accent\">ein Zuhause für jeden Aufenthalt.</span>",
+    "pt": "Famílias de acolhimento, residências, hotéis — <span class=\"h-accent\">um lar para cada tipo de estadia.</span>"
+  },
+  "service.transfers.bc": {
+    "en": "Airport Transfers",
+    "hu": "Reptéri transzfer",
+    "es": "Traslados al aeropuerto",
+    "it": "Trasferimenti aeroporto",
+    "fr": "Transferts aéroport",
+    "de": "Flughafentransfers",
+    "pt": "Transferes do aeroporto"
+  },
+  "service.transfers.hero.eyebrow": {
+    "en": "Door to door",
+    "hu": "Háztól házig",
+    "es": "Puerta a puerta",
+    "it": "Porta a porta",
+    "fr": "De porte à porte",
+    "de": "Von Tür zu Tür",
+    "pt": "Porta a porta"
+  },
+  "service.transfers.hero.h1": {
+    "en": "Airport pickup, <span class=\"h-accent\">24 hours a day.</span>",
+    "hu": "Reptéri érkeztetés <span class=\"h-accent\">a nap 24 órájában.</span>",
+    "es": "Recogida en el aeropuerto, <span class=\"h-accent\">24 horas al día.</span>",
+    "it": "Ritiro in aeroporto, <span class=\"h-accent\">24 ore su 24.</span>",
+    "fr": "Accueil à l'aéroport, <span class=\"h-accent\">24 heures sur 24.</span>",
+    "de": "Flughafenabholung, <span class=\"h-accent\">rund um die Uhr.</span>",
+    "pt": "Recolha no aeroporto, <span class=\"h-accent\">24 horas por dia.</span>"
+  },
+  "service.english.bc": {
+    "en": "English Classes",
+    "hu": "Angol órák",
+    "es": "Clases de inglés",
+    "it": "Corsi di inglese",
+    "fr": "Cours d'anglais",
+    "de": "Englischkurse",
+    "pt": "Aulas de inglês"
+  },
+  "service.english.hero.eyebrow": {
+    "en": "Tailored language support",
+    "hu": "Egyedi nyelvi támogatás",
+    "es": "Apoyo lingüístico personalizado",
+    "it": "Supporto linguistico su misura",
+    "fr": "Soutien linguistique sur mesure",
+    "de": "Maßgeschneiderter Sprachunterricht",
+    "pt": "Apoio linguístico personalizado"
+  },
+  "service.english.hero.h1": {
+    "en": "Bespoke English classes, <span class=\"h-accent\">matched to every level.</span>",
+    "hu": "Egyedi angol órák, <span class=\"h-accent\">minden szinthez igazítva.</span>",
+    "es": "Clases de inglés a medida, <span class=\"h-accent\">para cada nivel.</span>",
+    "it": "Corsi di inglese su misura, <span class=\"h-accent\">per ogni livello.</span>",
+    "fr": "Cours d'anglais sur mesure, <span class=\"h-accent\">adaptés à chaque niveau.</span>",
+    "de": "Maßgeschneiderte Englischkurse, <span class=\"h-accent\">passend zu jedem Niveau.</span>",
+    "pt": "Aulas de inglês personalizadas, <span class=\"h-accent\">para cada nível.</span>"
+  },
+  "service.tours.bc": {
+    "en": "Sightseeing Tours",
+    "hu": "Városnéző túrák",
+    "es": "Excursiones turísticas",
+    "it": "Tour turistici",
+    "fr": "Visites touristiques",
+    "de": "Sightseeing-Touren",
+    "pt": "Visitas turísticas"
+  },
+  "service.tours.hero.eyebrow": {
+    "en": "See it all",
+    "hu": "Lásson mindent",
+    "es": "Verlo todo",
+    "it": "Vedere tutto",
+    "fr": "Tout voir",
+    "de": "Alles entdecken",
+    "pt": "Ver tudo"
+  },
+  "service.tours.hero.h1": {
+    "en": "Iconic sights and <span class=\"h-accent\">hidden gems.</span>",
+    "hu": "Ikonikus látnivalók és <span class=\"h-accent\">rejtett kincsek.</span>",
+    "es": "Lugares icónicos y <span class=\"h-accent\">rincones secretos.</span>",
+    "it": "Luoghi iconici e <span class=\"h-accent\">tesori nascosti.</span>",
+    "fr": "Sites emblématiques et <span class=\"h-accent\">trésors cachés.</span>",
+    "de": "Berühmte Sehenswürdigkeiten und <span class=\"h-accent\">versteckte Schätze.</span>",
+    "pt": "Locais icónicos e <span class=\"h-accent\">joias escondidas.</span>"
+  },
+  "service.schools.bc": {
+    "en": "School Visits",
+    "hu": "Iskolalátogatások",
+    "es": "Visitas a escuelas",
+    "it": "Visite scolastiche",
+    "fr": "Visites d'écoles",
+    "de": "Schulbesuche",
+    "pt": "Visitas a escolas"
+  },
+  "service.schools.hero.eyebrow": {
+    "en": "Cultural exchange",
+    "hu": "Kulturális csere",
+    "es": "Intercambio cultural",
+    "it": "Scambio culturale",
+    "fr": "Échange culturel",
+    "de": "Kultureller Austausch",
+    "pt": "Intercâmbio cultural"
+  },
+  "service.schools.hero.h1": {
+    "en": "Visit Irish schools, <span class=\"h-accent\">meet local students.</span>",
+    "hu": "Látogasson el ír iskolákba, <span class=\"h-accent\">találkozzon helyi diákokkal.</span>",
+    "es": "Visita escuelas irlandesas, <span class=\"h-accent\">conoce a estudiantes locales.</span>",
+    "it": "Visita le scuole irlandesi, <span class=\"h-accent\">incontra studenti locali.</span>",
+    "fr": "Visitez les écoles irlandaises, <span class=\"h-accent\">rencontrez les élèves locaux.</span>",
+    "de": "Besuchen Sie irische Schulen, <span class=\"h-accent\">treffen Sie lokale Schüler.</span>",
+    "pt": "Visite escolas irlandesas, <span class=\"h-accent\">conheça estudantes locais.</span>"
+  },
+  "service.training.bc": {
+    "en": "Training Programs",
+    "hu": "Képzési programok",
+    "es": "Programas de formación",
+    "it": "Programmi di formazione",
+    "fr": "Programmes de formation",
+    "de": "Trainingsprogramme",
+    "pt": "Programas de formação"
+  },
+  "service.training.hero.eyebrow": {
+    "en": "Career-ready skills",
+    "hu": "Karrierre felkészítő készségek",
+    "es": "Competencias para la carrera",
+    "it": "Competenze pronte al lavoro",
+    "fr": "Compétences professionnelles",
+    "de": "Berufstaugliche Fähigkeiten",
+    "pt": "Competências profissionais"
+  },
+  "service.training.hero.h1": {
+    "en": "Industry training, <span class=\"h-accent\">tailored to your group.</span>",
+    "hu": "Szakmai képzés, <span class=\"h-accent\">csoportjához igazítva.</span>",
+    "es": "Formación sectorial, <span class=\"h-accent\">a medida de tu grupo.</span>",
+    "it": "Formazione settoriale, <span class=\"h-accent\">su misura del tuo gruppo.</span>",
+    "fr": "Formation sectorielle, <span class=\"h-accent\">adaptée à votre groupe.</span>",
+    "de": "Branchen-Training, <span class=\"h-accent\">auf Ihre Gruppe zugeschnitten.</span>",
+    "pt": "Formação setorial, <span class=\"h-accent\">à medida do seu grupo.</span>"
+  },
+  "service.coworking.bc": {
+    "en": "Co-working Space",
+    "hu": "Közösségi iroda",
+    "es": "Espacio de coworking",
+    "it": "Spazio coworking",
+    "fr": "Espace de coworking",
+    "de": "Coworking-Space",
+    "pt": "Espaço de cowork"
+  },
+  "service.coworking.hero.eyebrow": {
+    "en": "Work and study",
+    "hu": "Munka és tanulás",
+    "es": "Trabajo y estudio",
+    "it": "Lavoro e studio",
+    "fr": "Travail et études",
+    "de": "Arbeiten und Lernen",
+    "pt": "Trabalho e estudo"
+  },
+  "service.coworking.hero.h1": {
+    "en": "A productive home base for <span class=\"h-accent\">students and teachers.</span>",
+    "hu": "Produktív otthon a <span class=\"h-accent\">diákok és tanárok számára.</span>",
+    "es": "Una base productiva para <span class=\"h-accent\">estudiantes y profesores.</span>",
+    "it": "Una base produttiva per <span class=\"h-accent\">studenti e insegnanti.</span>",
+    "fr": "Une base productive pour <span class=\"h-accent\">étudiants et enseignants.</span>",
+    "de": "Eine produktive Basis für <span class=\"h-accent\">Studierende und Lehrkräfte.</span>",
+    "pt": "Uma base produtiva para <span class=\"h-accent\">estudantes e professores.</span>"
+  }
+}

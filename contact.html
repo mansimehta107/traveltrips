@@ -24,6 +24,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="assets/css/styles.css" />
+  <meta name="i18n-title" content="contact.title" />
+  <meta name="i18n-description" content="contact.description" />
 </head>
 <body>
 
@@ -33,42 +35,43 @@
       <nav>
         <ul class="nav__links">
           <li class="has-dropdown">
-            <a href="index.html#services">Services ▾</a>
+            <a href="index.html#services" data-i18n="common.nav.services_arrow">Services ▾</a>
             <ul class="dropdown">
-              <li><a href="services/erasmus-programme.html">Erasmus Programme</a></li>
-              <li><a href="services/internships.html">Internships</a></li>
-              <li><a href="services/accommodations.html">Accommodations</a></li>
-              <li><a href="services/airport-transfers.html">Airport Transfers</a></li>
-              <li><a href="services/english-classes.html">English Classes</a></li>
-              <li><a href="services/sightseeing-tours.html">Sightseeing Tours</a></li>
-              <li><a href="services/school-visits.html">School Visits</a></li>
-              <li><a href="services/training-programs.html">Training Programs</a></li>
-              <li><a href="services/coworking-space.html">Co-working Space</a></li>
+              <li><a href="services/erasmus-programme.html" data-i18n="common.service.erasmus">Erasmus Programme</a></li>
+              <li><a href="services/internships.html" data-i18n="common.service.internships">Internships</a></li>
+              <li><a href="services/accommodations.html" data-i18n="common.service.accommodations">Accommodations</a></li>
+              <li><a href="services/airport-transfers.html" data-i18n="common.service.transfers">Airport Transfers</a></li>
+              <li><a href="services/english-classes.html" data-i18n="common.service.english">English Classes</a></li>
+              <li><a href="services/sightseeing-tours.html" data-i18n="common.service.tours">Sightseeing Tours</a></li>
+              <li><a href="services/school-visits.html" data-i18n="common.service.schools">School Visits</a></li>
+              <li><a href="services/training-programs.html" data-i18n="common.service.training">Training Programs</a></li>
+              <li><a href="services/coworking-space.html" data-i18n="common.service.coworking">Co-working Space</a></li>
             </ul>
           </li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html" data-i18n="common.nav.about">About</a></li>
+          <li><a href="contact.html" data-i18n="common.nav.contact">Contact</a></li>
         </ul>
       </nav>
-      <a href="contact.html" class="btn btn--primary nav__cta nav__cta--desktop">Get in touch <span class="arrow">→</span></a>
-      <button class="nav__burger" aria-label="Menu"><span></span></button>
+      <a href="contact.html" class="btn btn--primary nav__cta nav__cta--desktop"><span data-i18n="common.nav.get_in_touch">Get in touch</span> <span class="arrow">→</span></a><div class="lang-switcher lang-switcher--desktop"></div>
+      <button class="nav__burger" aria-label="Menu" data-i18n-attr="aria-label:common.nav.menu"><span></span></button>
       <aside class="nav__drawer">
         <div class="nav__drawer-list">
-          <a href="index.html">Home</a>
-          <a href="about.html">About</a>
-          <a href="contact.html">Contact</a>
-          <div class="group-label">Services</div>
-          <a href="services/erasmus-programme.html">Erasmus Programme</a>
-          <a href="services/internships.html">Internships</a>
-          <a href="services/accommodations.html">Accommodations</a>
-          <a href="services/airport-transfers.html">Airport Transfers</a>
-          <a href="services/english-classes.html">English Classes</a>
-          <a href="services/sightseeing-tours.html">Sightseeing Tours</a>
-          <a href="services/school-visits.html">School Visits</a>
-          <a href="services/training-programs.html">Training Programs</a>
-          <a href="services/coworking-space.html">Co-working Space</a>
+          <a href="index.html" data-i18n="common.nav.home">Home</a>
+          <a href="about.html" data-i18n="common.nav.about">About</a>
+          <a href="contact.html" data-i18n="common.nav.contact">Contact</a>
+          <div class="group-label" data-i18n="common.nav.services">Services</div>
+          <a href="services/erasmus-programme.html" data-i18n="common.service.erasmus">Erasmus Programme</a>
+          <a href="services/internships.html" data-i18n="common.service.internships">Internships</a>
+          <a href="services/accommodations.html" data-i18n="common.service.accommodations">Accommodations</a>
+          <a href="services/airport-transfers.html" data-i18n="common.service.transfers">Airport Transfers</a>
+          <a href="services/english-classes.html" data-i18n="common.service.english">English Classes</a>
+          <a href="services/sightseeing-tours.html" data-i18n="common.service.tours">Sightseeing Tours</a>
+          <a href="services/school-visits.html" data-i18n="common.service.schools">School Visits</a>
+          <a href="services/training-programs.html" data-i18n="common.service.training">Training Programs</a>
+          <a href="services/coworking-space.html" data-i18n="common.service.coworking">Co-working Space</a>
         </div>
-        <a href="contact.html" class="btn btn--primary">Get in touch <span class="arrow">→</span></a>
+        <div class="lang-switcher lang-switcher--drawer"></div>
+        <a href="contact.html" class="btn btn--primary"><span data-i18n="common.nav.get_in_touch">Get in touch</span> <span class="arrow">→</span></a>
       </aside>
     </div>
   </header>
@@ -76,10 +79,10 @@
   <section class="page-hero">
     <div class="page-hero__bg-glow"></div>
     <div class="container">
-      <div class="breadcrumb reveal"><a href="index.html">Home</a> <span class="breadcrumb__sep">/</span> <span>Contact</span></div>
-      <span class="eyebrow reveal">Get in touch</span>
-      <h1 class="reveal" style="margin-top: 20px;">Let's plan your <span class="h-accent">next Erasmus.</span></h1>
-      <p class="lead reveal">Tell us about your group, your preferred city and your dates — we'll come back within one working day with a tailored programme.</p>
+      <div class="breadcrumb reveal"><a href="index.html" data-i18n="common.nav.home">Home</a> <span class="breadcrumb__sep">/</span> <span data-i18n="contact.bc">Contact</span></div>
+      <span class="eyebrow reveal" data-i18n="contact.hero.eyebrow">Get in touch</span>
+      <h1 class="reveal" style="margin-top: 20px;" data-i18n-html="contact.hero.h1">Let's plan your <span class="h-accent">next Erasmus.</span></h1>
+      <p class="lead reveal" data-i18n="contact.hero.lead">Tell us about your group, your preferred city and your dates — we'll come back within one working day with a tailored programme.</p>
     </div>
   </section>
 
@@ -88,20 +91,20 @@
       <div class="contact-grid">
         <div class="contact-info reveal">
           <div class="contact-info__block">
-            <h4>Dublin office</h4>
+            <h4 data-i18n="common.footer.dublin_office">Dublin office</h4>
             <p>24 Frederick Street South</p>
             <span>D02 XP30, Dublin 2, Ireland</span>
             <span><a href="mailto:anthony.traveltrips@gmail.com">anthony.traveltrips@gmail.com</a></span>
           </div>
           <div class="contact-info__block">
-            <h4>Budapest office</h4>
+            <h4 data-i18n="common.footer.budapest_office">Budapest office</h4>
             <p>Kecskeméti u. 7</p>
             <span>1053 Budapest, Hungary</span>
             <span><a href="mailto:anthony.traveltrips@gmail.com">anthony.traveltrips@gmail.com</a></span>
           </div>
           <div class="contact-info__block">
-            <h4>24/7 student line</h4>
-            <p>For students currently on programme</p>
+            <h4 data-i18n="contact.info.line24">24/7 student line</h4>
+            <p data-i18n="contact.info.line24_sub">For students currently on programme</p>
             <span><a href="mailto:anthony.traveltrips@gmail.com">anthony.traveltrips@gmail.com</a></span>
           </div>
         </div>
@@ -109,44 +112,44 @@
         <form id="contact-form" class="form reveal" action="https://formspree.io/f/xrejdoke" method="POST">
           <div class="form__row">
             <div class="field">
-              <label for="name">Your name</label>
-              <input id="name" name="name" type="text" placeholder="Jane Doe" required />
+              <label for="name" data-i18n="contact.form.name">Your name</label>
+              <input id="name" name="name" type="text" placeholder="Jane Doe" required data-i18n-attr="placeholder:contact.form.name_ph" />
             </div>
             <div class="field">
-              <label for="org">School / organisation</label>
-              <input id="org" name="org" type="text" placeholder="Lycée Saint-Marc" />
+              <label for="org" data-i18n="contact.form.org">School / organisation</label>
+              <input id="org" name="org" type="text" placeholder="Lycée Saint-Marc" data-i18n-attr="placeholder:contact.form.org_ph" />
             </div>
           </div>
           <div class="form__row">
             <div class="field">
-              <label for="email">Email</label>
-              <input id="email" name="email" type="email" placeholder="you@school.edu" required />
+              <label for="email" data-i18n="contact.form.email">Email</label>
+              <input id="email" name="email" type="email" placeholder="you@school.edu" required data-i18n-attr="placeholder:contact.form.email_ph" />
             </div>
             <div class="field">
-              <label for="city">City of interest</label>
+              <label for="city" data-i18n="contact.form.city">City of interest</label>
               <select id="city" name="city">
                 <option>Dublin</option>
                 <option>Budapest</option>
-                <option>Either</option>
+                <option data-i18n="contact.form.city_either">Either</option>
               </select>
             </div>
           </div>
           <div class="form__row">
             <div class="field">
-              <label for="group-size">Group size</label>
-              <input id="group-size" name="group-size" type="text" placeholder="e.g. 12 students + 2 teachers" />
+              <label for="group-size" data-i18n="contact.form.group">Group size</label>
+              <input id="group-size" name="group-size" type="text" placeholder="e.g. 12 students + 2 teachers" data-i18n-attr="placeholder:contact.form.group_ph" />
             </div>
             <div class="field">
-              <label for="dates">Approximate dates</label>
-              <input id="dates" name="dates" type="text" placeholder="e.g. April – May 2026" />
+              <label for="dates" data-i18n="contact.form.dates">Approximate dates</label>
+              <input id="dates" name="dates" type="text" placeholder="e.g. April – May 2026" data-i18n-attr="placeholder:contact.form.dates_ph" />
             </div>
           </div>
           <div class="field">
-            <label for="message">Tell us about your programme</label>
-            <textarea id="message" name="message" placeholder="Internships, English classes, tour preferences, anything special…"></textarea>
+            <label for="message" data-i18n="contact.form.msg">Tell us about your programme</label>
+            <textarea id="message" name="message" placeholder="Internships, English classes, tour preferences, anything special…" data-i18n-attr="placeholder:contact.form.msg_ph"></textarea>
           </div>
           <input type="hidden" name="_subject" value="New enquiry from Travel Trips website" />
-          <button class="btn btn--primary" type="submit">Send enquiry <span class="arrow">→</span></button>
+          <button class="btn btn--primary" type="submit"><span data-i18n="common.cta.send_enquiry">Send enquiry</span> <span class="arrow">→</span></button>
           <div id="form-status" class="form__status" role="status" aria-live="polite"></div>
         </form>
       </div>
@@ -158,30 +161,30 @@
       <div class="footer__top">
         <div class="footer__brand">
           <a href="index.html" class="logo"><svg class="logo__mark" width="24" height="28" viewBox="0 0 24 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><ellipse cx="12" cy="10" rx="9" ry="9.5" fill="#F4C842"/><path d="M12 0.5v19M6 1.5C6 7 6 13 8 18M18 1.5C18 7 18 13 16 18M3.5 9C7 11 17 11 20.5 9" stroke="#0A0A0A" stroke-width="0.6" stroke-linecap="round" opacity="0.28" fill="none"/><path d="M6 18l3 5M18 18l-3 5M12 19.5v3.5" stroke="#0A0A0A" stroke-width="0.8" stroke-linecap="round"/><rect x="8" y="23" width="8" height="3.3" rx="0.6" fill="#0A0A0A"/></svg> Travel Trips</a>
-          <p>End-to-end Erasmus services in Dublin and Budapest. Internships, host-family accommodation, tours and 24/7 support.</p>
+          <p data-i18n="common.footer.tagline">End-to-end Erasmus services in Dublin and Budapest. Internships, host-family accommodation, tours and 24/7 support.</p>
         </div>
-        <div class="footer__col"><h4>Services</h4><ul>
-          <li><a href="services/erasmus-programme.html">Erasmus Programme</a></li>
-          <li><a href="services/internships.html">Internships</a></li>
-          <li><a href="services/accommodations.html">Accommodations</a></li>
-          <li><a href="services/airport-transfers.html">Airport Transfers</a></li>
-          <li><a href="services/english-classes.html">English Classes</a></li>
+        <div class="footer__col"><h4 data-i18n="common.footer.col.services">Services</h4><ul>
+          <li><a href="services/erasmus-programme.html" data-i18n="common.service.erasmus">Erasmus Programme</a></li>
+          <li><a href="services/internships.html" data-i18n="common.service.internships">Internships</a></li>
+          <li><a href="services/accommodations.html" data-i18n="common.service.accommodations">Accommodations</a></li>
+          <li><a href="services/airport-transfers.html" data-i18n="common.service.transfers">Airport Transfers</a></li>
+          <li><a href="services/english-classes.html" data-i18n="common.service.english">English Classes</a></li>
         </ul></div>
-        <div class="footer__col"><h4>More</h4><ul>
-          <li><a href="services/sightseeing-tours.html">Sightseeing Tours</a></li>
-          <li><a href="services/school-visits.html">School Visits</a></li>
-          <li><a href="services/training-programs.html">Training Programs</a></li>
-          <li><a href="services/coworking-space.html">Co-working Space</a></li>
+        <div class="footer__col"><h4 data-i18n="common.footer.col.more">More</h4><ul>
+          <li><a href="services/sightseeing-tours.html" data-i18n="common.service.tours">Sightseeing Tours</a></li>
+          <li><a href="services/school-visits.html" data-i18n="common.service.schools">School Visits</a></li>
+          <li><a href="services/training-programs.html" data-i18n="common.service.training">Training Programs</a></li>
+          <li><a href="services/coworking-space.html" data-i18n="common.service.coworking">Co-working Space</a></li>
         </ul></div>
-        <div class="footer__col"><h4>Company</h4><ul>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="contact.html">Dublin office</a></li>
-          <li><a href="contact.html">Budapest office</a></li>
+        <div class="footer__col"><h4 data-i18n="common.footer.col.company">Company</h4><ul>
+          <li><a href="about.html" data-i18n="common.nav.about">About</a></li>
+          <li><a href="contact.html" data-i18n="common.nav.contact">Contact</a></li>
+          <li><a href="contact.html" data-i18n="common.footer.dublin_office">Dublin office</a></li>
+          <li><a href="contact.html" data-i18n="common.footer.budapest_office">Budapest office</a></li>
         </ul></div>
       </div>
       <div class="footer__bottom">
-        <span>© <span data-year>2026</span> Travel Trips. All rights reserved.</span>
+        <span data-i18n="common.footer.copyright">© 2026 Travel Trips. All rights reserved.</span>
         <div class="footer__socials">
           <a href="https://www.instagram.com/traveltrips_dublin/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
@@ -194,6 +197,7 @@
   <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="assets/js/i18n.js" defer></script>
   <script src="assets/js/main.js"></script>
   <script>
     (function () {
@@ -201,9 +205,11 @@
       const status = document.getElementById('form-status');
       if (!form || !status) return;
 
+      const t = (key, fallback) => (window.tt_i18n && window.tt_i18n.t(key, fallback)) || fallback;
+
       form.addEventListener('submit', async (e) => {
         e.preventDefault();
-        status.textContent = 'Sending…';
+        status.textContent = t('contact.form.sending', 'Sending…');
         status.className = 'form__status form__status--pending';
 
         try {
@@ -214,16 +220,16 @@
           });
           if (res.ok) {
             form.reset();
-            status.textContent = 'Thank you, we\'ll get back to you as soon as we can.';
+            status.textContent = t('contact.form.success', "Thank you, we'll get back to you as soon as we can.");
             status.className = 'form__status form__status--success';
           } else {
             const data = await res.json().catch(() => ({}));
-            const msg = (data.errors && data.errors.map(e => e.message).join(', ')) || 'Something went wrong. Please email anthony.traveltrips@gmail.com directly.';
+            const msg = (data.errors && data.errors.map(e => e.message).join(', ')) || t('contact.form.error', 'Something went wrong. Please email anthony.traveltrips@gmail.com directly.');
             status.textContent = msg;
             status.className = 'form__status form__status--error';
           }
         } catch (err) {
-          status.textContent = 'Network error. Please email anthony.traveltrips@gmail.com directly.';
+          status.textContent = t('contact.form.error', 'Network error. Please email anthony.traveltrips@gmail.com directly.');
           status.className = 'form__status form__status--error';
         }
       });

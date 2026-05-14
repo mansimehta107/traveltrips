@@ -24,6 +24,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="assets/css/styles.css" />
+  <meta name="i18n-title" content="home.title" />
+  <meta name="i18n-description" content="home.description" />
 </head>
 <body>
 
@@ -38,50 +40,52 @@
       <nav>
         <ul class="nav__links">
           <li class="has-dropdown">
-            <a href="#services">Services ▾</a>
+            <a href="#services" data-i18n="common.nav.services_arrow">Services ▾</a>
             <ul class="dropdown">
-              <li><a href="services/erasmus-programme.html">Erasmus Programme</a></li>
-              <li><a href="services/internships.html">Internships</a></li>
-              <li><a href="services/accommodations.html">Accommodations</a></li>
-              <li><a href="services/airport-transfers.html">Airport Transfers</a></li>
-              <li><a href="services/english-classes.html">English Classes</a></li>
-              <li><a href="services/sightseeing-tours.html">Sightseeing Tours</a></li>
-              <li><a href="services/school-visits.html">School Visits</a></li>
-              <li><a href="services/training-programs.html">Training Programs</a></li>
-              <li><a href="services/coworking-space.html">Co-working Space</a></li>
+              <li><a href="services/erasmus-programme.html" data-i18n="common.service.erasmus">Erasmus Programme</a></li>
+              <li><a href="services/internships.html" data-i18n="common.service.internships">Internships</a></li>
+              <li><a href="services/accommodations.html" data-i18n="common.service.accommodations">Accommodations</a></li>
+              <li><a href="services/airport-transfers.html" data-i18n="common.service.transfers">Airport Transfers</a></li>
+              <li><a href="services/english-classes.html" data-i18n="common.service.english">English Classes</a></li>
+              <li><a href="services/sightseeing-tours.html" data-i18n="common.service.tours">Sightseeing Tours</a></li>
+              <li><a href="services/school-visits.html" data-i18n="common.service.schools">School Visits</a></li>
+              <li><a href="services/training-programs.html" data-i18n="common.service.training">Training Programs</a></li>
+              <li><a href="services/coworking-space.html" data-i18n="common.service.coworking">Co-working Space</a></li>
 
                 </ul>
           </li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html" data-i18n="common.nav.about">About</a></li>
+          <li><a href="contact.html" data-i18n="common.nav.contact">Contact</a></li>
         </ul>
       </nav>
 
       <a href="contact.html" class="btn btn--primary nav__cta nav__cta--desktop">
-        Get in touch <span class="arrow">→</span>
+        <span data-i18n="common.nav.get_in_touch">Get in touch</span> <span class="arrow">→</span>
       </a>
+      <div class="lang-switcher lang-switcher--desktop"></div>
 
-      <button class="nav__burger" aria-label="Menu">
+      <button class="nav__burger" aria-label="Menu" data-i18n-attr="aria-label:common.nav.menu">
         <span></span>
       </button>
 
       <aside class="nav__drawer">
         <div class="nav__drawer-list">
-          <a href="index.html">Home</a>
-          <a href="about.html">About</a>
-          <a href="contact.html">Contact</a>
-          <div class="group-label">Services</div>
-          <a href="services/erasmus-programme.html">Erasmus Programme</a>
-          <a href="services/internships.html">Internships</a>
-          <a href="services/accommodations.html">Accommodations</a>
-          <a href="services/airport-transfers.html">Airport Transfers</a>
-          <a href="services/english-classes.html">English Classes</a>
-          <a href="services/sightseeing-tours.html">Sightseeing Tours</a>
-          <a href="services/school-visits.html">School Visits</a>
-          <a href="services/training-programs.html">Training Programs</a>
-          <a href="services/coworking-space.html">Co-working Space</a>
+          <a href="index.html" data-i18n="common.nav.home">Home</a>
+          <a href="about.html" data-i18n="common.nav.about">About</a>
+          <a href="contact.html" data-i18n="common.nav.contact">Contact</a>
+          <div class="group-label" data-i18n="common.nav.services">Services</div>
+          <a href="services/erasmus-programme.html" data-i18n="common.service.erasmus">Erasmus Programme</a>
+          <a href="services/internships.html" data-i18n="common.service.internships">Internships</a>
+          <a href="services/accommodations.html" data-i18n="common.service.accommodations">Accommodations</a>
+          <a href="services/airport-transfers.html" data-i18n="common.service.transfers">Airport Transfers</a>
+          <a href="services/english-classes.html" data-i18n="common.service.english">English Classes</a>
+          <a href="services/sightseeing-tours.html" data-i18n="common.service.tours">Sightseeing Tours</a>
+          <a href="services/school-visits.html" data-i18n="common.service.schools">School Visits</a>
+          <a href="services/training-programs.html" data-i18n="common.service.training">Training Programs</a>
+          <a href="services/coworking-space.html" data-i18n="common.service.coworking">Co-working Space</a>
         </div>
-        <a href="contact.html" class="btn btn--primary">Get in touch <span class="arrow">→</span></a>
+        <div class="lang-switcher lang-switcher--drawer"></div>
+        <a href="contact.html" class="btn btn--primary"><span data-i18n="common.nav.get_in_touch">Get in touch</span> <span class="arrow">→</span></a>
       </aside>
     </div>
   </header>
@@ -91,12 +95,12 @@
     <div class="hero__bg-glow"></div>
     <div class="container hero__inner">
       <div>
-        <span class="eyebrow reveal">Dublin · Budapest · Since 2014</span>
-        <h1 class="reveal">Your Erasmus journey, <span class="h-accent">made unforgettable.</span></h1>
-        <p class="lead reveal">From the moment students land in Dublin or Budapest to the goodbye at the airport, Travel Trips handles every detail — internships, host families, tours, English support — so the experience is everything they hoped for.</p>
+        <span class="eyebrow reveal" data-i18n="home.hero.eyebrow">Dublin · Budapest · Since 2014</span>
+        <h1 class="reveal" data-i18n-html="home.hero.h1">Your Erasmus journey, <span class="h-accent">made unforgettable.</span></h1>
+        <p class="lead reveal" data-i18n="home.hero.lead">From the moment students land in Dublin or Budapest to the goodbye at the airport, Travel Trips handles every detail — internships, host families, tours, English support — so the experience is everything they hoped for.</p>
         <div class="hero__cta reveal">
-          <a href="contact.html" class="btn btn--primary">Get in touch <span class="arrow">→</span></a>
-          <a href="#services" class="btn btn--primary btn--primary-alt">View our services <span class="arrow">→</span></a>
+          <a href="contact.html" class="btn btn--primary"><span data-i18n="common.nav.get_in_touch">Get in touch</span> <span class="arrow">→</span></a>
+          <a href="#services" class="btn btn--primary btn--primary-alt"><span data-i18n="common.cta.view_services">View our services</span> <span class="arrow">→</span></a>
         </div>
 
         <div class="hero__proof reveal">
@@ -104,8 +108,8 @@
             <span>FR</span><span>ES</span><span>DE</span><span>IT</span>
           </div>
           <div class="hero__proof-text">
-            <strong>500+ students hosted</strong>
-            <span>From France, Spain, Germany and beyond</span>
+            <strong data-i18n="home.hero.proof.stat">500+ students hosted</strong>
+            <span data-i18n="home.hero.proof.text">From France, Spain, Germany and beyond</span>
           </div>
         </div>
       </div>
@@ -144,9 +148,9 @@
   <!-- ============ MARQUEE ============ -->
   <div class="marquee" aria-hidden="true">
     <div class="marquee__track">
-      <div class="marquee__item">10+ Years of experience</div>
-      <div class="marquee__item">100+ Host families</div>
-      <div class="marquee__item">24/7 On-the-ground support</div>
+      <div class="marquee__item" data-i18n="home.marquee.years">10+ Years of experience</div>
+      <div class="marquee__item" data-i18n="home.marquee.families">100+ Host families</div>
+      <div class="marquee__item" data-i18n="home.marquee.support">24/7 On-the-ground support</div>
       <div class="marquee__item">Dublin · Ireland</div>
       <div class="marquee__item">Budapest · Hungary</div>
       <div class="marquee__item">France</div>
@@ -154,9 +158,9 @@
       <div class="marquee__item">Germany</div>
       <div class="marquee__item">Italy</div>
       <!-- duplicate for seamless loop -->
-      <div class="marquee__item">10+ Years of experience</div>
-      <div class="marquee__item">100+ Host families</div>
-      <div class="marquee__item">24/7 On-the-ground support</div>
+      <div class="marquee__item" data-i18n="home.marquee.years">10+ Years of experience</div>
+      <div class="marquee__item" data-i18n="home.marquee.families">100+ Host families</div>
+      <div class="marquee__item" data-i18n="home.marquee.support">24/7 On-the-ground support</div>
       <div class="marquee__item">Dublin · Ireland</div>
       <div class="marquee__item">Budapest · Hungary</div>
       <div class="marquee__item">France</div>
@@ -170,31 +174,31 @@
   <section class="section">
     <div class="container">
       <div class="section-head reveal">
-        <span class="eyebrow">Why Travel Trips</span>
-        <h2>Built on a decade of <span class="h-accent">trust</span>, hosting and Irish hospitality.</h2>
-        <p>We don't just place students in a city — we welcome them into a community. Every transfer, every meal, every tour is run by people who've been doing this for years.</p>
+        <span class="eyebrow" data-i18n="home.why.eyebrow">Why Travel Trips</span>
+        <h2 data-i18n-html="home.why.h2">Built on a decade of <span class="h-accent">trust</span>, hosting and Irish hospitality.</h2>
+        <p data-i18n="home.why.lead">We don't just place students in a city — we welcome them into a community. Every transfer, every meal, every tour is run by people who've been doing this for years.</p>
       </div>
 
       <div class="feature-grid" data-reveal-group>
         <div class="feature-card reveal-item">
           <div class="feature-card__icon">★</div>
-          <h3>A decade of experience</h3>
-          <p>Over 10 years organising Erasmus internships, accommodation and tours for international schools and universities.</p>
+          <h3 data-i18n="home.why.card1.title">A decade of experience</h3>
+          <p data-i18n="home.why.card1.body">Over 10 years organising Erasmus internships, accommodation and tours for international schools and universities.</p>
         </div>
         <div class="feature-card reveal-item">
           <div class="feature-card__icon">♥</div>
-          <h3>100+ host families</h3>
-          <p>A vetted network of warm Irish families who serve breakfast, lunch and dinner — and share their daily life with every student.</p>
+          <h3 data-i18n="home.why.card2.title">100+ host families</h3>
+          <p data-i18n="home.why.card2.body">A vetted network of warm Irish families who serve breakfast, lunch and dinner — and share their daily life with every student.</p>
         </div>
         <div class="feature-card reveal-item">
           <div class="feature-card__icon">⌖</div>
-          <h3>Tours that tell stories</h3>
-          <p>From Howth Cliff to the Cliffs of Moher, our tour partners explain the history and meaning behind every landmark.</p>
+          <h3 data-i18n="home.why.card3.title">Tours that tell stories</h3>
+          <p data-i18n="home.why.card3.body">From Howth Cliff to the Cliffs of Moher, our tour partners explain the history and meaning behind every landmark.</p>
         </div>
         <div class="feature-card reveal-item">
           <div class="feature-card__icon">⏱</div>
-          <h3>24/7 on-the-ground support</h3>
-          <p>Late flight, lost luggage, last-minute question — we're reachable around the clock, in both cities.</p>
+          <h3 data-i18n="home.why.card4.title">24/7 on-the-ground support</h3>
+          <p data-i18n="home.why.card4.body">Late flight, lost luggage, last-minute question — we're reachable around the clock, in both cities.</p>
         </div>
       </div>
     </div>
@@ -204,65 +208,65 @@
   <section class="section" id="services">
     <div class="container">
       <div class="section-head reveal">
-        <span class="eyebrow">What we offer</span>
-        <h2>End-to-end services for <span class="h-accent">every Erasmus</span> and study-abroad experience.</h2>
-        <p>From the airport pickup to the final farewell, every part of the journey can be handled by Travel Trips.</p>
+        <span class="eyebrow" data-i18n="home.services.eyebrow">What we offer</span>
+        <h2 data-i18n-html="home.services.h2">End-to-end services for <span class="h-accent">every Erasmus</span> and study-abroad experience.</h2>
+        <p data-i18n="home.services.lead">From the airport pickup to the final farewell, every part of the journey can be handled by Travel Trips.</p>
       </div>
 
       <div class="services-grid" data-reveal-group>
         <a href="services/erasmus-programme.html" class="service-card reveal-item">
           <div class="service-card__icon">◉</div>
-          <h3>Erasmus Programme</h3>
-          <p>Our flagship end-to-end programme combining internship, accommodation, tours and English support.</p>
-          <span class="service-card__arrow">Learn more →</span>
+          <h3 data-i18n="common.service.erasmus">Erasmus Programme</h3>
+          <p data-i18n="home.services.card.erasmus.body">Our flagship end-to-end programme combining internship, accommodation, tours and English support.</p>
+          <span class="service-card__arrow" data-i18n="common.cta.learn_more">Learn more →</span>
         </a>
         <a href="services/internships.html" class="service-card reveal-item">
           <div class="service-card__icon">⚒</div>
-          <h3>Internships</h3>
-          <p>Placements across retail, administration, business-to-business, social media and many other industries.</p>
-          <span class="service-card__arrow">Learn more →</span>
+          <h3 data-i18n="common.service.internships">Internships</h3>
+          <p data-i18n="home.services.card.internships.body">Placements across retail, administration, business-to-business, social media and many other industries.</p>
+          <span class="service-card__arrow" data-i18n="common.cta.learn_more">Learn more →</span>
         </a>
         <a href="services/accommodations.html" class="service-card reveal-item">
           <div class="service-card__icon">⌂</div>
-          <h3>Accommodations</h3>
-          <p>Host families, student residences, hotels, apartments and dedicated teacher accommodation.</p>
-          <span class="service-card__arrow">Learn more →</span>
+          <h3 data-i18n="common.service.accommodations">Accommodations</h3>
+          <p data-i18n="home.services.card.accommodations.body">Host families, student residences, hotels, apartments and dedicated teacher accommodation.</p>
+          <span class="service-card__arrow" data-i18n="common.cta.learn_more">Learn more →</span>
         </a>
         <a href="services/airport-transfers.html" class="service-card reveal-item">
           <div class="service-card__icon">✈</div>
-          <h3>Airport Transfers</h3>
-          <p>24/7 pickup and drop-off in Dublin and Budapest. Name-card meet, solo or group.</p>
-          <span class="service-card__arrow">Learn more →</span>
+          <h3 data-i18n="common.service.transfers">Airport Transfers</h3>
+          <p data-i18n="home.services.card.transfers.body">24/7 pickup and drop-off in Dublin and Budapest. Name-card meet, solo or group.</p>
+          <span class="service-card__arrow" data-i18n="common.cta.learn_more">Learn more →</span>
         </a>
         <a href="services/english-classes.html" class="service-card reveal-item">
           <div class="service-card__icon">A</div>
-          <h3>Bespoke English Classes</h3>
-          <p>Tailored to each student's level — conversational, academic or business English with certified teachers.</p>
-          <span class="service-card__arrow">Learn more →</span>
+          <h3 data-i18n="home.services.card.english.title">Bespoke English Classes</h3>
+          <p data-i18n="home.services.card.english.body">Tailored to each student's level — conversational, academic or business English with certified teachers.</p>
+          <span class="service-card__arrow" data-i18n="common.cta.learn_more">Learn more →</span>
         </a>
         <a href="services/sightseeing-tours.html" class="service-card reveal-item">
           <div class="service-card__icon">⛰</div>
-          <h3>Sightseeing Tours</h3>
-          <p>Dublin landmarks, Howth Cliff, Cliffs of Moher, beaches and historic churches — with rich local commentary.</p>
-          <span class="service-card__arrow">Learn more →</span>
+          <h3 data-i18n="common.service.tours">Sightseeing Tours</h3>
+          <p data-i18n="home.services.card.tours.body">Dublin landmarks, Howth Cliff, Cliffs of Moher, beaches and historic churches — with rich local commentary.</p>
+          <span class="service-card__arrow" data-i18n="common.cta.learn_more">Learn more →</span>
         </a>
         <a href="services/school-visits.html" class="service-card reveal-item">
           <div class="service-card__icon">⌘</div>
-          <h3>School Visits</h3>
-          <p>Arranged visits to Irish schools, colleges and training institutions for cultural and academic exchange.</p>
-          <span class="service-card__arrow">Learn more →</span>
+          <h3 data-i18n="common.service.schools">School Visits</h3>
+          <p data-i18n="home.services.card.schools.body">Arranged visits to Irish schools, colleges and training institutions for cultural and academic exchange.</p>
+          <span class="service-card__arrow" data-i18n="common.cta.learn_more">Learn more →</span>
         </a>
         <a href="services/training-programs.html" class="service-card reveal-item">
           <div class="service-card__icon">◈</div>
-          <h3>Training Programs</h3>
-          <p>Customised industry training tracks designed to complement internships and build career-ready skills.</p>
-          <span class="service-card__arrow">Learn more →</span>
+          <h3 data-i18n="common.service.training">Training Programs</h3>
+          <p data-i18n="home.services.card.training.body">Customised industry training tracks designed to complement internships and build career-ready skills.</p>
+          <span class="service-card__arrow" data-i18n="common.cta.learn_more">Learn more →</span>
         </a>
         <a href="services/coworking-space.html" class="service-card reveal-item">
           <div class="service-card__icon">◧</div>
-          <h3>Co-working Space</h3>
-          <p>A dedicated workspace for students and teachers — desks, Wi-Fi, meeting rooms and a friendly community.</p>
-          <span class="service-card__arrow">Learn more →</span>
+          <h3 data-i18n="common.service.coworking">Co-working Space</h3>
+          <p data-i18n="home.services.card.coworking.body">A dedicated workspace for students and teachers — desks, Wi-Fi, meeting rooms and a friendly community.</p>
+          <span class="service-card__arrow" data-i18n="common.cta.learn_more">Learn more →</span>
         </a>
       </div>
     </div>
@@ -272,11 +276,11 @@
   <section class="section">
     <div class="container split">
       <div class="split__text reveal">
-        <span class="eyebrow">Our story</span>
-        <h2>Driven by <span class="h-accent">purpose</span>, powered by hospitality.</h2>
-        <p>What started as a handful of host-family stays in Dublin has grown into a full Erasmus programme spanning Dublin and Budapest. Last year alone we welcomed students from France, Spain and Germany — and every single one of them left with new friendships, a piece of Irish culture, and memories that will last a lifetime.</p>
-        <p>Our promise is simple: treat every student like family. That's why we partner only with host families who genuinely love what they do, tour operators who know their craft, and a 24/7 team that picks up the phone whenever it rings.</p>
-        <a href="about.html" class="btn btn--secondary">More about us <span class="arrow">→</span></a>
+        <span class="eyebrow" data-i18n="home.story.eyebrow">Our story</span>
+        <h2 data-i18n-html="home.story.h2">Driven by <span class="h-accent">purpose</span>, powered by hospitality.</h2>
+        <p data-i18n="home.story.p1">What started as a handful of host-family stays in Dublin has grown into a full Erasmus programme spanning Dublin and Budapest. Last year alone we welcomed students from France, Spain and Germany — and every single one of them left with new friendships, a piece of Irish culture, and memories that will last a lifetime.</p>
+        <p data-i18n="home.story.p2">Our promise is simple: treat every student like family. That's why we partner only with host families who genuinely love what they do, tour operators who know their craft, and a 24/7 team that picks up the phone whenever it rings.</p>
+        <a href="about.html" class="btn btn--secondary"><span data-i18n="common.cta.more_about_us">More about us</span> <span class="arrow">→</span></a>
       </div>
       <div class="split__media reveal">
         <img src="assets/img/tt-2-host-family.webp" alt="Host family welcome dinner" loading="lazy" />
@@ -290,19 +294,19 @@
       <div class="stats" data-reveal-group>
         <div class="stat reveal-item">
           <div class="stat__num"><span data-counter="10">0</span><small>+</small></div>
-          <div class="stat__label">Years of experience</div>
+          <div class="stat__label" data-i18n="home.stats.years">Years of experience</div>
         </div>
         <div class="stat reveal-item">
           <div class="stat__num"><span data-counter="100">0</span><small>+</small></div>
-          <div class="stat__label">Host families</div>
+          <div class="stat__label" data-i18n="home.stats.families">Host families</div>
         </div>
         <div class="stat reveal-item">
           <div class="stat__num">24<small>/7</small></div>
-          <div class="stat__label">Availability</div>
+          <div class="stat__label" data-i18n="home.stats.availability">Availability</div>
         </div>
         <div class="stat reveal-item">
           <div class="stat__num"><span data-counter="2">0</span></div>
-          <div class="stat__label">Cities — Dublin &amp; Budapest</div>
+          <div class="stat__label" data-i18n="home.stats.cities">Cities — Dublin &amp; Budapest</div>
         </div>
       </div>
     </div>
@@ -312,27 +316,27 @@
   <section class="section">
     <div class="container">
       <div class="section-head reveal">
-        <span class="eyebrow">A slice of Ireland</span>
-        <h2>Iconic landmarks, hidden gems and <span class="h-accent">real local stories.</span></h2>
-        <p>Our partner tour operators bring students to the places every visitor should see — and explain the history that makes them matter.</p>
+        <span class="eyebrow" data-i18n="home.ireland.eyebrow">A slice of Ireland</span>
+        <h2 data-i18n-html="home.ireland.h2">Iconic landmarks, hidden gems and <span class="h-accent">real local stories.</span></h2>
+        <p data-i18n="home.ireland.lead">Our partner tour operators bring students to the places every visitor should see — and explain the history that makes them matter.</p>
       </div>
 
       <div class="photo-grid" data-reveal-group>
         <figure class="reveal-item">
           <img src="assets/img/cliffs-of-moher.webp" alt="Cliffs of Moher" loading="lazy" />
-          <figcaption>Cliffs of Moher</figcaption>
+          <figcaption data-i18n="home.ireland.cap.cliffs">Cliffs of Moher</figcaption>
         </figure>
         <figure class="reveal-item">
           <img src="assets/img/howth-cliff.webp" alt="Howth Cliff" loading="lazy" />
-          <figcaption>Howth Cliff Walk</figcaption>
+          <figcaption data-i18n="home.ireland.cap.howth">Howth Cliff Walk</figcaption>
         </figure>
         <figure class="reveal-item">
           <img src="assets/img/dublin-castle.webp" alt="Dublin Castle" loading="lazy" />
-          <figcaption>Dublin Castle</figcaption>
+          <figcaption data-i18n="home.ireland.cap.castle">Dublin Castle</figcaption>
         </figure>
         <figure class="reveal-item">
           <img src="assets/img/irish-beach.webp" alt="Irish coastline" loading="lazy" />
-          <figcaption>West coast beaches</figcaption>
+          <figcaption data-i18n="home.ireland.cap.beach">West coast beaches</figcaption>
         </figure>
       </div>
     </div>
@@ -342,44 +346,44 @@
   <section class="section">
     <div class="container">
       <div class="section-head reveal">
-        <span class="eyebrow">Student stories</span>
-        <h2>"I came as a student. I left with a <span class="h-accent">second family.</span>"</h2>
-        <p>Voices from students who joined our Erasmus programme over the last year.</p>
+        <span class="eyebrow" data-i18n="home.test.eyebrow">Student stories</span>
+        <h2 data-i18n-html="home.test.h2">"I came as a student. I left with a <span class="h-accent">second family.</span>"</h2>
+        <p data-i18n="home.test.lead">Voices from students who joined our Erasmus programme over the last year.</p>
       </div>
 
       <div class="testimonials" data-reveal-group>
         <div class="testimonial reveal-item">
           <div class="testimonial__rating">★ ★ ★ ★ ★</div>
-          <p class="testimonial__quote">"My host family welcomed me like one of their own. The home-cooked Irish stew, the stories at dinner, the tours on weekends — I couldn't have asked for a better Erasmus."</p>
+          <p class="testimonial__quote" data-i18n="home.test.t1.quote">"My host family welcomed me like one of their own. The home-cooked Irish stew, the stories at dinner, the tours on weekends — I couldn't have asked for a better Erasmus."</p>
           <div class="testimonial__author">
             <div class="testimonial__avatar">CL</div>
             <div>
               <div class="testimonial__name">Claire L.</div>
-              <div class="testimonial__role">From Lyon, France — 2025</div>
+              <div class="testimonial__role" data-i18n="home.test.t1.role">From Lyon, France — 2025</div>
             </div>
           </div>
         </div>
 
         <div class="testimonial reveal-item">
           <div class="testimonial__rating">★ ★ ★ ★ ★</div>
-          <p class="testimonial__quote">"The internship placement matched exactly what I studied. My English improved enormously and the Cliffs of Moher trip was unforgettable. Travel Trips made every detail simple."</p>
+          <p class="testimonial__quote" data-i18n="home.test.t2.quote">"The internship placement matched exactly what I studied. My English improved enormously and the Cliffs of Moher trip was unforgettable. Travel Trips made every detail simple."</p>
           <div class="testimonial__author">
             <div class="testimonial__avatar">MG</div>
             <div>
               <div class="testimonial__name">Mateo G.</div>
-              <div class="testimonial__role">From Madrid, Spain — 2025</div>
+              <div class="testimonial__role" data-i18n="home.test.t2.role">From Madrid, Spain — 2025</div>
             </div>
           </div>
         </div>
 
         <div class="testimonial reveal-item">
           <div class="testimonial__rating">★ ★ ★ ★ ★</div>
-          <p class="testimonial__quote">"Picked up at the airport at midnight, dropped at a home where dinner was waiting. From day one we felt looked after. Ireland now feels like a second home."</p>
+          <p class="testimonial__quote" data-i18n="home.test.t3.quote">"Picked up at the airport at midnight, dropped at a home where dinner was waiting. From day one we felt looked after. Ireland now feels like a second home."</p>
           <div class="testimonial__author">
             <div class="testimonial__avatar">JB</div>
             <div>
               <div class="testimonial__name">Jonas B.</div>
-              <div class="testimonial__role">From Berlin, Germany — 2025</div>
+              <div class="testimonial__role" data-i18n="home.test.t3.role">From Berlin, Germany — 2025</div>
             </div>
           </div>
         </div>
@@ -391,9 +395,9 @@
   <section class="section">
     <div class="container">
       <div class="section-head reveal">
-        <span class="eyebrow">Where we work</span>
-        <h2>Two cities. <span class="h-accent">One promise.</span></h2>
-        <p>Travel Trips operates on the ground in both Dublin and Budapest, with the same standard of care in each.</p>
+        <span class="eyebrow" data-i18n="home.locs.eyebrow">Where we work</span>
+        <h2 data-i18n-html="home.locs.h2">Two cities. <span class="h-accent">One promise.</span></h2>
+        <p data-i18n="home.locs.lead">Travel Trips operates on the ground in both Dublin and Budapest, with the same standard of care in each.</p>
       </div>
 
       <div class="locations" data-reveal-group>
@@ -402,9 +406,9 @@
             <img src="assets/img/dublin-aerial.webp" alt="Dublin" loading="lazy" />
           </div>
           <div class="location__body">
-            <div class="location__city">Ireland</div>
+            <div class="location__city" data-i18n="home.locs.ireland">Ireland</div>
             <h3 class="location__name">Dublin</h3>
-            <p class="location__desc">Our home base. Host families across the city, partner internships in central Dublin, and tour partners covering Howth, the Cliffs of Moher, west-coast beaches and Dublin's historic centre.</p>
+            <p class="location__desc" data-i18n="home.locs.dublin.body">Our home base. Host families across the city, partner internships in central Dublin, and tour partners covering Howth, the Cliffs of Moher, west-coast beaches and Dublin's historic centre.</p>
           </div>
         </article>
 
@@ -413,9 +417,9 @@
             <img src="assets/img/budapest-aerial.webp" alt="Budapest" loading="lazy" />
           </div>
           <div class="location__body">
-            <div class="location__city">Hungary</div>
+            <div class="location__city" data-i18n="home.locs.hungary">Hungary</div>
             <h3 class="location__name">Budapest</h3>
-            <p class="location__desc">A growing programme along the Danube — internships, student accommodation, English classes and tours through one of Europe's most beautiful capitals.</p>
+            <p class="location__desc" data-i18n="home.locs.budapest.body">A growing programme along the Danube — internships, student accommodation, English classes and tours through one of Europe's most beautiful capitals.</p>
           </div>
         </article>
       </div>
@@ -426,9 +430,9 @@
   <section class="section gallery-section">
     <div class="container">
       <div class="section-head reveal">
-        <span class="eyebrow">Past students</span>
-        <h2>Real journeys, <span class="h-accent">captured.</span></h2>
-        <p>Photos from students who lived with our host families, did internships, climbed cliffs and made friends for life.</p>
+        <span class="eyebrow" data-i18n="home.gallery.eyebrow">Past students</span>
+        <h2 data-i18n-html="home.gallery.h2">Real journeys, <span class="h-accent">captured.</span></h2>
+        <p data-i18n="home.gallery.lead">Photos from students who lived with our host families, did internships, climbed cliffs and made friends for life.</p>
       </div>
     </div>
     <div class="gallery-marquee">
@@ -501,9 +505,9 @@
   <section class="section">
     <div class="container">
       <div class="cta-card reveal">
-        <h2>Ready to begin your <span class="h-accent">Erasmus adventure?</span></h2>
-        <p>Tell us about your group, your city of choice and your dates — we'll put together a programme that fits.</p>
-        <a href="contact.html" class="btn btn--primary">Start the conversation <span class="arrow">→</span></a>
+        <h2 data-i18n-html="home.cta.h2">Ready to begin your <span class="h-accent">Erasmus adventure?</span></h2>
+        <p data-i18n="home.cta.body">Tell us about your group, your city of choice and your dates — we'll put together a programme that fits.</p>
+        <a href="contact.html" class="btn btn--primary"><span data-i18n="common.cta.start_conversation">Start the conversation</span> <span class="arrow">→</span></a>
       </div>
     </div>
   </section>
@@ -516,43 +520,43 @@
           <a href="index.html" class="logo">
             <svg class="logo__mark" width="24" height="28" viewBox="0 0 24 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><ellipse cx="12" cy="10" rx="9" ry="9.5" fill="#F4C842"/><path d="M12 0.5v19M6 1.5C6 7 6 13 8 18M18 1.5C18 7 18 13 16 18M3.5 9C7 11 17 11 20.5 9" stroke="#0A0A0A" stroke-width="0.6" stroke-linecap="round" opacity="0.28" fill="none"/><path d="M6 18l3 5M18 18l-3 5M12 19.5v3.5" stroke="#0A0A0A" stroke-width="0.8" stroke-linecap="round"/><rect x="8" y="23" width="8" height="3.3" rx="0.6" fill="#0A0A0A"/></svg> Travel Trips
           </a>
-          <p>End-to-end Erasmus services in Dublin and Budapest. Internships, host-family accommodation, tours and 24/7 support.</p>
+          <p data-i18n="common.footer.tagline">End-to-end Erasmus services in Dublin and Budapest. Internships, host-family accommodation, tours and 24/7 support.</p>
         </div>
 
         <div class="footer__col">
-          <h4>Services</h4>
+          <h4 data-i18n="common.footer.col.services">Services</h4>
           <ul>
-            <li><a href="services/erasmus-programme.html">Erasmus Programme</a></li>
-            <li><a href="services/internships.html">Internships</a></li>
-            <li><a href="services/accommodations.html">Accommodations</a></li>
-            <li><a href="services/airport-transfers.html">Airport Transfers</a></li>
-            <li><a href="services/english-classes.html">English Classes</a></li>
+            <li><a href="services/erasmus-programme.html" data-i18n="common.service.erasmus">Erasmus Programme</a></li>
+            <li><a href="services/internships.html" data-i18n="common.service.internships">Internships</a></li>
+            <li><a href="services/accommodations.html" data-i18n="common.service.accommodations">Accommodations</a></li>
+            <li><a href="services/airport-transfers.html" data-i18n="common.service.transfers">Airport Transfers</a></li>
+            <li><a href="services/english-classes.html" data-i18n="common.service.english">English Classes</a></li>
           </ul>
         </div>
 
         <div class="footer__col">
-          <h4>More</h4>
+          <h4 data-i18n="common.footer.col.more">More</h4>
           <ul>
-            <li><a href="services/sightseeing-tours.html">Sightseeing Tours</a></li>
-            <li><a href="services/school-visits.html">School Visits</a></li>
-            <li><a href="services/training-programs.html">Training Programs</a></li>
-            <li><a href="services/coworking-space.html">Co-working Space</a></li>
+            <li><a href="services/sightseeing-tours.html" data-i18n="common.service.tours">Sightseeing Tours</a></li>
+            <li><a href="services/school-visits.html" data-i18n="common.service.schools">School Visits</a></li>
+            <li><a href="services/training-programs.html" data-i18n="common.service.training">Training Programs</a></li>
+            <li><a href="services/coworking-space.html" data-i18n="common.service.coworking">Co-working Space</a></li>
             </ul>
         </div>
 
         <div class="footer__col">
-          <h4>Company</h4>
+          <h4 data-i18n="common.footer.col.company">Company</h4>
           <ul>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="contact.html">Dublin office</a></li>
-            <li><a href="contact.html">Budapest office</a></li>
+            <li><a href="about.html" data-i18n="common.nav.about">About</a></li>
+            <li><a href="contact.html" data-i18n="common.nav.contact">Contact</a></li>
+            <li><a href="contact.html" data-i18n="common.footer.dublin_office">Dublin office</a></li>
+            <li><a href="contact.html" data-i18n="common.footer.budapest_office">Budapest office</a></li>
           </ul>
         </div>
       </div>
 
       <div class="footer__bottom">
-        <span>© <span data-year>2026</span> Travel Trips. All rights reserved.</span>
+        <span data-i18n="common.footer.copyright">© 2026 Travel Trips. All rights reserved.</span>
         <div class="footer__socials">
           <a href="https://www.instagram.com/traveltrips_dublin/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
@@ -566,6 +570,7 @@
   <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="assets/js/i18n.js" defer></script>
   <script src="assets/js/main.js"></script>
 </body>
 </html>
