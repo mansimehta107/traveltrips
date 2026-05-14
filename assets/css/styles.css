@@ -551,10 +551,6 @@ button { font-family: inherit; background: none; border: none; cursor: pointer; 
   display: block;
 }
 
-.hero__cols:hover .hero__col-track {
-  animation-play-state: paused;
-}
-
 /* Tablet + mobile: switch hero columns to horizontal marquee (two stacked rows) */
 @media (max-width: 960px) {
   .hero__cols {
@@ -739,11 +735,6 @@ button { font-family: inherit; background: none; border: none; cursor: pointer; 
 .gallery-marquee__track img:hover {
   transform: scale(1.02);
   box-shadow: 0 18px 40px -18px rgba(10, 10, 10, 0.35);
-}
-
-.gallery-marquee:hover .gallery-marquee__track,
-.gallery-marquee:focus-within .gallery-marquee__track {
-  animation-play-state: paused;
 }
 
 @keyframes galleryScrollLeft {
