@@ -85,7 +85,7 @@
     lightbox.className = 'lightbox';
     lightbox.setAttribute('role', 'dialog');
     lightbox.setAttribute('aria-modal', 'true');
-    lightbox.setAttribute('aria-hidden', 'true');
+    lightbox.inert = true;
     lightbox.innerHTML = '<button class="lightbox__close" type="button" aria-label="Close">×</button><img alt="" />';
     document.body.appendChild(lightbox);
 
@@ -95,14 +95,15 @@
     function openLightbox(src) {
       lbImg.src = src;
       lightbox.classList.add('is-open');
-      lightbox.setAttribute('aria-hidden', 'false');
+      lightbox.inert = false;
       document.body.style.overflow = 'hidden';
       if (lenis) lenis.stop();
+      lbClose.focus();
     }
 
     function closeLightbox() {
       lightbox.classList.remove('is-open');
-      lightbox.setAttribute('aria-hidden', 'true');
+      lightbox.inert = true;
       document.body.style.overflow = '';
       if (lenis) lenis.start();
       // Clear src after the close transition so the next open can't briefly flash the previous image
