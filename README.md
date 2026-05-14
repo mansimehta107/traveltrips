@@ -20,15 +20,19 @@ Then open the URL it prints (usually http://localhost:3000).
 
 ## File map
 
+Pages use clean URLs (no `.html` extension) — each page lives at `<folder>/index.html`.
+
 ```
-index.html              Home
-about.html              About
-contact.html            Contact (Formspree-wired form)
-services/               9 service pages
-assets/css/styles.css   All styles
-assets/js/main.js       Lenis smooth scroll, GSAP reveals, counters, nav
-assets/img/             All photography (WebP, ~2MB total)
-partials.md             Nav + footer HTML snippets to reuse if you add new pages
+index.html                                       →  /
+about/index.html                                 →  /about/
+contact/index.html                               →  /contact/  (Formspree-wired form)
+services/<name>/index.html                       →  /services/<name>/  (9 service pages)
+assets/css/styles.css                            All styles
+assets/js/main.js                                Lenis smooth scroll, GSAP reveals, counters, nav
+assets/js/i18n.js                                Client-side translation runtime (7 languages)
+assets/i18n.json                                 Translation dictionary
+assets/img/                                      All photography (WebP, ~2MB total)
+sitemap.xml / robots.txt                         SEO
 ```
 
 ## Deploy
@@ -39,19 +43,19 @@ To deploy elsewhere: it's a flat static site, so any host works — Netlify, Ver
 
 ## Contact form
 
-The form on `contact.html` POSTs to [Formspree](https://formspree.io) (endpoint `xrejdoke`) via AJAX. Submissions are emailed to `anthony.traveltrips@gmail.com`.
+The form on `contact/index.html` POSTs to [Formspree](https://formspree.io) (endpoint `xrejdoke`) via AJAX. Submissions are emailed to `anthony.traveltrips@gmail.com`.
 
 - Free tier: 50 submissions/month
 - Spam filtering: Formspree's built-in Akismet
 - If JS is disabled, the form falls back to a native POST + Formspree's thank-you redirect
 
-To change the endpoint, edit the `action` attribute on the `<form>` in `contact.html`.
+To change the endpoint, edit the `action` attribute on the `<form>` in `contact/index.html`.
 
 ## Images
 
 All photos are WebP, served from `assets/img/`. Total weight is ~2MB across 15 files (down from ~24MB as JPGs).
 
-To add a new image: drop the file in `assets/img/`, then reference it with `<img src="assets/img/your-file.webp">` (or `../assets/img/...` from inside `services/`).
+To add a new image: drop the file in `assets/img/`, then reference it with `<img src="/assets/img/your-file.webp">` (absolute paths work from any depth).
 
 ## How to update navigation across pages
 
