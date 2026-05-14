@@ -1758,6 +1758,8 @@ button { font-family: inherit; background: none; border: none; cursor: pointer; 
   border: 1px solid rgba(10, 10, 10, 0.08);
 }
 
+.nav__inner > .lang-switcher--desktop { margin-right: 10px; }
+
 @media (max-width: 960px) {
   .nav__inner > .lang-switcher--desktop { display: none; }
 }
