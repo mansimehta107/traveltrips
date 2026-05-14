@@ -646,6 +646,136 @@ button { font-family: inherit; background: none; border: none; cursor: pointer; 
 }
 
 /* ============================================================
+   Gallery marquee (student photos)
+   ============================================================ */
+
+.gallery-section { padding-top: 24px; }
+
+.gallery-marquee {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.gallery-marquee__row {
+  height: clamp(200px, 26vw, 300px);
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent);
+}
+
+.gallery-marquee__track {
+  display: flex;
+  gap: 14px;
+  width: max-content;
+  height: 100%;
+  will-change: transform;
+}
+
+.gallery-marquee__row--left .gallery-marquee__track {
+  animation: galleryScrollLeft 80s linear infinite;
+}
+
+.gallery-marquee__row--right .gallery-marquee__track {
+  animation: galleryScrollRight 90s linear infinite;
+}
+
+.gallery-marquee__track img {
+  height: 100%;
+  width: auto;
+  border-radius: 16px;
+  flex-shrink: 0;
+  cursor: zoom-in;
+  display: block;
+  background: var(--surface);
+  transition: transform 0.25s var(--ease), box-shadow 0.25s var(--ease);
+}
+
+.gallery-marquee__track img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 18px 40px -18px rgba(10, 10, 10, 0.35);
+}
+
+.gallery-marquee:hover .gallery-marquee__track,
+.gallery-marquee:focus-within .gallery-marquee__track {
+  animation-play-state: paused;
+}
+
+@keyframes galleryScrollLeft {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+@keyframes galleryScrollRight {
+  from { transform: translateX(-50%); }
+  to { transform: translateX(0); }
+}
+
+/* ============================================================
+   Lightbox
+   ============================================================ */
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(10, 10, 10, 0.92);
+  opacity: 0;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  z-index: 200;
+  transition: opacity 0.2s var(--ease);
+  cursor: zoom-out;
+}
+
+.lightbox.is-open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.lightbox img {
+  max-width: 92vw;
+  max-height: 90vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 12px;
+  box-shadow: 0 30px 80px -20px rgba(0, 0, 0, 0.6);
+}
+
+.lightbox__close {
+  position: absolute;
+  top: 20px;
+  right: 22px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+  font-size: 26px;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.lightbox__close:hover {
+  background: rgba(255, 255, 255, 0.18);
+  transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+  .lightbox { padding: 12px; }
+  .lightbox img { max-width: 96vw; max-height: 86vh; border-radius: 8px; }
+  .lightbox__close { top: 14px; right: 14px; width: 40px; height: 40px; }
+}
+
+/* ============================================================
    Feature cards
    ============================================================ */
 
@@ -1521,4 +1651,5 @@ button { font-family: inherit; background: none; border: none; cursor: pointer; 
   .reveal, .reveal-x { opacity: 1; transform: none; }
   .hero__col--up .hero__col-track,
   .hero__col--down .hero__col-track { animation: none; }
+  .gallery-marquee__track { animation: none; }
 }

@@ -14,3 +14,6 @@ desktop.ini
 # Local env
 .env
 .env.local
+
+# Source photos (we ship the converted WebP versions only)
+assets/img/students/raw/
